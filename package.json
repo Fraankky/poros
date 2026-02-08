@@ -1,0 +1,31 @@
+{
+  "name": "poros-monorepo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api dev",
+    "build": "pnpm -r build",
+    "build:web": "pnpm --filter web build",
+    "build:api": "pnpm --filter api build",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "prisma": "^5.16.0",
+    "typescript": "^5.5.2"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.0",
+    "@prisma/adapter-neon": "^7.3.0",
+    "@prisma/client": "5.22.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ws": "^8.19.0"
+  }
+}
