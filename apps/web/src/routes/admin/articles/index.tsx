@@ -37,7 +37,7 @@ function ArticlesPage() {
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold">Articles</h1>
         {pagination && (
-          <span className="text-sm text-gray-500">
+          <span className="text-sm text-black">
             Total: {pagination.total} articles
           </span>
         )}
@@ -47,17 +47,17 @@ function ArticlesPage() {
         <table className="w-full">
           <thead className="bg-gray-50">
             <tr>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 w-16">Cover</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Title</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Category</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Status</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Published</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Actions</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black w-16">Cover</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black">Title</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black">Category</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black">Status</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black">Published</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black">Actions</th>
             </tr>
           </thead>
           <tbody className="divide-y">
             {articles.map((article) => (
-              <tr key={article.id} className="hover:bg-gray-50">
+              <tr key={article.id} className="hover:bg-gray-50 text-black">
                 <td className="px-4 py-3">
                   {article.thumbnailUrl || article.coverImageUrl ? (
                     <img
@@ -67,7 +67,7 @@ function ArticlesPage() {
                     />
                   ) : (
                     <div className="w-14 h-10 bg-gray-100 rounded flex items-center justify-center">
-                      <svg className="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg className="w-5 h-5 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
                     </div>
@@ -80,7 +80,7 @@ function ArticlesPage() {
                 <td className="px-4 py-3">
                   <StatusBadge status={article.status} />
                 </td>
-                <td className="px-4 py-3 text-sm text-gray-500 whitespace-nowrap">
+                <td className="px-4 py-3 text-sm text-black whitespace-nowrap">
                   {article.publishedAt
                     ? new Date(article.publishedAt).toLocaleDateString('id-ID', {
                         day: 'numeric',
@@ -103,7 +103,7 @@ function ArticlesPage() {
           </tbody>
         </table>
         {articles.length === 0 && (
-          <div className="text-center py-8 text-gray-500">No articles found</div>
+          <div className="text-center py-8 text-black">No articles found</div>
         )}
       </div>
 

@@ -11,7 +11,7 @@ export const Route = createFileRoute('/_public/kategori/$slug')({
 
 function CategoryPage() {
   const { slug } = useParams({ from: '/_public/kategori/$slug' })
-  const search = useSearch({ from: '/_public/kategori/$slug' })
+  const search = useSearch({ from: '/_public/kategori/$slug' }) as { page?: number }
   const navigate = useNavigate()
   
   const currentPage = Number(search.page) || 1
@@ -41,21 +41,18 @@ function CategoryPage() {
   return (
     <div className="min-h-screen">
       {/* Category Header */}
-      <section className="bg-neutral-50 dark:bg-neutral-900/50 border-b border-neutral-200 dark:border-neutral-800">
+      <section className="bg-indigo-700 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           {category ? (
             <>
-              <h1 className="font-sans font-extrabold text-3xl md:text-4xl text-neutral-900 dark:text-white tracking-tight">
+              <h1 className="font-sans font-extrabold text-3xl md:text-4xl text-white dark:text-white tracking-tight">
                 {category.name}
               </h1>
               {category.description && (
-                <p className="mt-3 text-neutral-600 dark:text-neutral-400 max-w-2xl">
+                <p className="mt-3 text-white-600 dark:text-white max-w-2xl">
                   {category.description}
                 </p>
               )}
-              <p className="mt-4 text-sm text-neutral-500 dark:text-neutral-500">
-                {pagination?.total || 0} artikel
-              </p>
             </>
           ) : (
             <div className="animate-pulse">

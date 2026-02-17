@@ -78,7 +78,7 @@ function CategoriesPage() {
       {/* Create Form */}
       {showCreate && (
         <div className="bg-white p-4 rounded-lg shadow">
-          <h2 className="font-semibold text-sm text-gray-700 mb-3">New Category</h2>
+          <h2 className="font-semibold text-sm text-black-700 mb-3">New Category</h2>
           <CategoryForm
             onSubmit={handleCreate}
             onCancel={() => setShowCreate(false)}
@@ -93,11 +93,11 @@ function CategoriesPage() {
         <table className="w-full">
           <thead className="bg-gray-50">
             <tr>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Name</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Slug</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Description</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Articles</th>
-              <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Actions</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black-500">Name</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black-500">Slug</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black-500">Description</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black-500">Articles</th>
+              <th className="px-4 py-3 text-left text-sm font-medium text-black-500">Actions</th>
             </tr>
           </thead>
           <tbody className="divide-y">
@@ -117,12 +117,12 @@ function CategoriesPage() {
               ) : (
                 <tr key={cat.id} className="hover:bg-gray-50">
                   <td className="px-4 py-3 font-medium">{cat.name}</td>
-                  <td className="px-4 py-3 text-sm text-gray-500">{cat.slug}</td>
-                  <td className="px-4 py-3 text-sm text-gray-500">
-                    {cat.description || <span className="text-gray-300">-</span>}
+                  <td className="px-4 py-3 text-sm text-black-500">{cat.slug}</td>
+                  <td className="px-4 py-3 text-sm text-black-500">
+                    {cat.description || <span className="text-black-300">-</span>}
                   </td>
                   <td className="px-4 py-3">
-                    <span className="bg-gray-100 text-gray-700 px-2 py-0.5 rounded text-xs">
+                    <span className="bg-gray-100 text-black-700 px-2 py-0.5 rounded text-xs">
                       {cat._count.articles}
                     </span>
                   </td>
@@ -149,7 +149,7 @@ function CategoriesPage() {
           </tbody>
         </table>
         {categories.length === 0 && (
-          <div className="text-center py-8 text-gray-500">No categories found</div>
+          <div className="text-center py-8 text-black-500">No categories found</div>
         )}
       </div>
 
@@ -157,17 +157,17 @@ function CategoriesPage() {
       {forceDeleteCat && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg shadow-xl max-w-md w-full mx-4 p-6">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
+            <h3 className="text-lg font-semibold text-black-900 mb-2">
               Force Delete Category?
             </h3>
-            <p className="text-gray-600 mb-4">
+            <p className="text-black-600 mb-4">
               Category "{forceDeleteCat.name}" has {forceDeleteCat._count.articles} article(s). 
               These articles will be moved to "Uncategorized" category.
             </p>
             <div className="flex justify-end gap-3">
               <button
                 onClick={() => setForceDeleteCat(null)}
-                className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg"
+                className="px-4 py-2 text-black-700 hover:bg-gray-100 rounded-lg"
               >
                 Cancel
               </button>

@@ -64,7 +64,7 @@ router.get('/:id', requireAuth, async (req, res) => {
       return res.status(404).json({ error: 'Article not found' })
     }
     
-    res.json(article)
+    res.json({ article })
   } catch (error) {
     console.error('Error fetching article:', error)
     res.status(500).json({ error: 'Failed to fetch article' })

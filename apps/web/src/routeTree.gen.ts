@@ -15,12 +15,12 @@ import { Route as AdminIndexRouteImport } from './routes/admin/index'
 import { Route as PublicIndexRouteImport } from './routes/_public/index'
 import { Route as AdminLoginRouteImport } from './routes/admin/login'
 import { Route as AdminCategoriesRouteImport } from './routes/admin/categories'
-import { Route as AdminArticlesRouteImport } from './routes/admin/articles'
 import { Route as PublicSearchRouteImport } from './routes/_public/search'
-import { Route as AdminArticlesIndexRouteImport } from './routes/admin/articles.index'
-import { Route as AdminArticlesArticleIdRouteImport } from './routes/admin/articles.$articleId'
+import { Route as AdminArticlesRouteRouteImport } from './routes/admin/articles/route'
+import { Route as AdminArticlesIndexRouteImport } from './routes/admin/articles/index'
 import { Route as PublicKategoriSlugRouteImport } from './routes/_public/kategori/$slug'
 import { Route as PublicArtikelSlugRouteImport } from './routes/_public/artikel/$slug'
+import { Route as AdminArticlesArticleIdRouteRouteImport } from './routes/admin/articles/$articleId/route'
 
 const AdminRoute = AdminRouteImport.update({
   id: '/admin',
@@ -51,25 +51,20 @@ const AdminCategoriesRoute = AdminCategoriesRouteImport.update({
   path: '/categories',
   getParentRoute: () => AdminRoute,
 } as any)
-const AdminArticlesRoute = AdminArticlesRouteImport.update({
-  id: '/articles',
-  path: '/articles',
-  getParentRoute: () => AdminRoute,
-} as any)
 const PublicSearchRoute = PublicSearchRouteImport.update({
   id: '/search',
   path: '/search',
   getParentRoute: () => PublicRoute,
 } as any)
+const AdminArticlesRouteRoute = AdminArticlesRouteRouteImport.update({
+  id: '/articles',
+  path: '/articles',
+  getParentRoute: () => AdminRoute,
+} as any)
 const AdminArticlesIndexRoute = AdminArticlesIndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => AdminArticlesRoute,
-} as any)
-const AdminArticlesArticleIdRoute = AdminArticlesArticleIdRouteImport.update({
-  id: '/$articleId',
-  path: '/$articleId',
-  getParentRoute: () => AdminArticlesRoute,
+  getParentRoute: () => AdminArticlesRouteRoute,
 } as any)
 const PublicKategoriSlugRoute = PublicKategoriSlugRouteImport.update({
   id: '/kategori/$slug',
@@ -81,18 +76,24 @@ const PublicArtikelSlugRoute = PublicArtikelSlugRouteImport.update({
   path: '/artikel/$slug',
   getParentRoute: () => PublicRoute,
 } as any)
+const AdminArticlesArticleIdRouteRoute =
+  AdminArticlesArticleIdRouteRouteImport.update({
+    id: '/$articleId',
+    path: '/$articleId',
+    getParentRoute: () => AdminArticlesRouteRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof PublicIndexRoute
   '/admin': typeof AdminRouteWithChildren
+  '/admin/articles': typeof AdminArticlesRouteRouteWithChildren
   '/search': typeof PublicSearchRoute
-  '/admin/articles': typeof AdminArticlesRouteWithChildren
   '/admin/categories': typeof AdminCategoriesRoute
   '/admin/login': typeof AdminLoginRoute
   '/admin/': typeof AdminIndexRoute
+  '/admin/articles/$articleId': typeof AdminArticlesArticleIdRouteRoute
   '/artikel/$slug': typeof PublicArtikelSlugRoute
   '/kategori/$slug': typeof PublicKategoriSlugRoute
-  '/admin/articles/$articleId': typeof AdminArticlesArticleIdRoute
   '/admin/articles/': typeof AdminArticlesIndexRoute
 }
 export interface FileRoutesByTo {
@@ -101,24 +102,24 @@ export interface FileRoutesByTo {
   '/admin/login': typeof AdminLoginRoute
   '/': typeof PublicIndexRoute
   '/admin': typeof AdminIndexRoute
+  '/admin/articles/$articleId': typeof AdminArticlesArticleIdRouteRoute
   '/artikel/$slug': typeof PublicArtikelSlugRoute
   '/kategori/$slug': typeof PublicKategoriSlugRoute
-  '/admin/articles/$articleId': typeof AdminArticlesArticleIdRoute
   '/admin/articles': typeof AdminArticlesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_public': typeof PublicRouteWithChildren
   '/admin': typeof AdminRouteWithChildren
+  '/admin/articles': typeof AdminArticlesRouteRouteWithChildren
   '/_public/search': typeof PublicSearchRoute
-  '/admin/articles': typeof AdminArticlesRouteWithChildren
   '/admin/categories': typeof AdminCategoriesRoute
   '/admin/login': typeof AdminLoginRoute
   '/_public/': typeof PublicIndexRoute
   '/admin/': typeof AdminIndexRoute
+  '/admin/articles/$articleId': typeof AdminArticlesArticleIdRouteRoute
   '/_public/artikel/$slug': typeof PublicArtikelSlugRoute
   '/_public/kategori/$slug': typeof PublicKategoriSlugRoute
-  '/admin/articles/$articleId': typeof AdminArticlesArticleIdRoute
   '/admin/articles/': typeof AdminArticlesIndexRoute
 }
 export interface FileRouteTypes {
@@ -126,14 +127,14 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/admin'
-    | '/search'
     | '/admin/articles'
+    | '/search'
     | '/admin/categories'
     | '/admin/login'
     | '/admin/'
+    | '/admin/articles/$articleId'
     | '/artikel/$slug'
     | '/kategori/$slug'
-    | '/admin/articles/$articleId'
     | '/admin/articles/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -142,23 +143,23 @@ export interface FileRouteTypes {
     | '/admin/login'
     | '/'
     | '/admin'
+    | '/admin/articles/$articleId'
     | '/artikel/$slug'
     | '/kategori/$slug'
-    | '/admin/articles/$articleId'
     | '/admin/articles'
   id:
     | '__root__'
     | '/_public'
     | '/admin'
-    | '/_public/search'
     | '/admin/articles'
+    | '/_public/search'
     | '/admin/categories'
     | '/admin/login'
     | '/_public/'
     | '/admin/'
+    | '/admin/articles/$articleId'
     | '/_public/artikel/$slug'
     | '/_public/kategori/$slug'
-    | '/admin/articles/$articleId'
     | '/admin/articles/'
   fileRoutesById: FileRoutesById
 }
@@ -211,13 +212,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminCategoriesRouteImport
       parentRoute: typeof AdminRoute
     }
-    '/admin/articles': {
-      id: '/admin/articles'
-      path: '/articles'
-      fullPath: '/admin/articles'
-      preLoaderRoute: typeof AdminArticlesRouteImport
-      parentRoute: typeof AdminRoute
-    }
     '/_public/search': {
       id: '/_public/search'
       path: '/search'
@@ -225,19 +219,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PublicSearchRouteImport
       parentRoute: typeof PublicRoute
     }
+    '/admin/articles': {
+      id: '/admin/articles'
+      path: '/articles'
+      fullPath: '/admin/articles'
+      preLoaderRoute: typeof AdminArticlesRouteRouteImport
+      parentRoute: typeof AdminRoute
+    }
     '/admin/articles/': {
       id: '/admin/articles/'
       path: '/'
       fullPath: '/admin/articles/'
       preLoaderRoute: typeof AdminArticlesIndexRouteImport
-      parentRoute: typeof AdminArticlesRoute
-    }
-    '/admin/articles/$articleId': {
-      id: '/admin/articles/$articleId'
-      path: '/$articleId'
-      fullPath: '/admin/articles/$articleId'
-      preLoaderRoute: typeof AdminArticlesArticleIdRouteImport
-      parentRoute: typeof AdminArticlesRoute
+      parentRoute: typeof AdminArticlesRouteRoute
     }
     '/_public/kategori/$slug': {
       id: '/_public/kategori/$slug'
@@ -252,6 +246,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/artikel/$slug'
       preLoaderRoute: typeof PublicArtikelSlugRouteImport
       parentRoute: typeof PublicRoute
+    }
+    '/admin/articles/$articleId': {
+      id: '/admin/articles/$articleId'
+      path: '/$articleId'
+      fullPath: '/admin/articles/$articleId'
+      preLoaderRoute: typeof AdminArticlesArticleIdRouteRouteImport
+      parentRoute: typeof AdminArticlesRouteRoute
     }
   }
 }
@@ -273,29 +274,28 @@ const PublicRouteChildren: PublicRouteChildren = {
 const PublicRouteWithChildren =
   PublicRoute._addFileChildren(PublicRouteChildren)
 
-interface AdminArticlesRouteChildren {
-  AdminArticlesArticleIdRoute: typeof AdminArticlesArticleIdRoute
+interface AdminArticlesRouteRouteChildren {
+  AdminArticlesArticleIdRouteRoute: typeof AdminArticlesArticleIdRouteRoute
   AdminArticlesIndexRoute: typeof AdminArticlesIndexRoute
 }
 
-const AdminArticlesRouteChildren: AdminArticlesRouteChildren = {
-  AdminArticlesArticleIdRoute: AdminArticlesArticleIdRoute,
+const AdminArticlesRouteRouteChildren: AdminArticlesRouteRouteChildren = {
+  AdminArticlesArticleIdRouteRoute: AdminArticlesArticleIdRouteRoute,
   AdminArticlesIndexRoute: AdminArticlesIndexRoute,
 }
 
-const AdminArticlesRouteWithChildren = AdminArticlesRoute._addFileChildren(
-  AdminArticlesRouteChildren,
-)
+const AdminArticlesRouteRouteWithChildren =
+  AdminArticlesRouteRoute._addFileChildren(AdminArticlesRouteRouteChildren)
 
 interface AdminRouteChildren {
-  AdminArticlesRoute: typeof AdminArticlesRouteWithChildren
+  AdminArticlesRouteRoute: typeof AdminArticlesRouteRouteWithChildren
   AdminCategoriesRoute: typeof AdminCategoriesRoute
   AdminLoginRoute: typeof AdminLoginRoute
   AdminIndexRoute: typeof AdminIndexRoute
 }
 
 const AdminRouteChildren: AdminRouteChildren = {
-  AdminArticlesRoute: AdminArticlesRouteWithChildren,
+  AdminArticlesRouteRoute: AdminArticlesRouteRouteWithChildren,
   AdminCategoriesRoute: AdminCategoriesRoute,
   AdminLoginRoute: AdminLoginRoute,
   AdminIndexRoute: AdminIndexRoute,

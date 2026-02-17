@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
+// @ts-ignore - Vite env
+const API_URL = import.meta.env?.VITE_API_URL || 'http://localhost:3001'
 
 export interface Category {
   id: string

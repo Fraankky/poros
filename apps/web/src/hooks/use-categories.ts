@@ -78,8 +78,8 @@ export function useDeleteCategory() {
     onSuccess: (data) => {
       queryClient.invalidateQueries({ queryKey: categoriesKeys.lists() })
       queryClient.invalidateQueries({ queryKey: ['articles'] })
-      if (data.articlesMoved && data.articlesMoved > 0) {
-        alert(`${data.articlesMoved} article(s) moved to "Uncategorized".`)
+      if (data.articlesUnassigned && data.articlesUnassigned > 0) {
+        alert(`${data.articlesUnassigned} article(s) moved to "Uncategorized".`)
       }
     },
     onError: (error: Error) => {

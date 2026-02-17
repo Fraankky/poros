@@ -1,8 +1,10 @@
 import { useQuery } from '@tanstack/react-query'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
+// @ts-ignore - Vite env
+const API_URL = import.meta.env?.VITE_API_URL || 'http://localhost:3001'
 
-interface Article {
+// Article type for public API responses
+export interface Article {
   id: string
   title: string
   slug: string
@@ -20,6 +22,12 @@ interface Article {
     name: string
     slug: string
   }
+}
+
+// Hero response type
+interface HeroResponse {
+  featured: Article | null
+  sideArticles: Article[]
 }
 
 interface Pagination {
@@ -128,5 +136,51 @@ export function usePublicSearch(query: string, page = 1, limit = 12) {
       return res.json()
     },
     enabled: query.trim().length > 0
+  })
+}
+
+// GET /api/public/hero - Get featured + 2 side articles for hero section
+export function useHeroArticles() {
+  return useQuery<HeroResponse>({
+    queryKey: ['public', 'hero'],
+    queryFn: async () => {
+      const res = await fetch(`${API_URL}/api/public/hero`)
+      if (!res.ok) throw new Error('Failed to fetch hero articles')
+      return res.json()
+    },
+    staleTime: 5 * 60 * 1000 // 5 minutes
+  })
+}
+
+// GET /api/public/categories/:slug/articles
+interface UseArticlesByCategoryParams {
+  slug: string
+  limit?: number
+  page?: number
+  excludeIds?: string[]
+}
+
+export function useArticlesByCategory(params: UseArticlesByCategoryParams) {
+  const { slug, limit = 3, page = 1, excludeIds = [] } = params
+  
+  const queryParams = new URLSearchParams({
+    limit: limit.toString(),
+    page: page.toString()
+  })
+  
+  if (excludeIds.length > 0) {
+    queryParams.append('exclude', excludeIds.join(','))
+  }
+
+  return useQuery<ArticlesResponse>({
+    queryKey: ['public', 'articles', 'category', slug, { limit, page, excludeIds }],
+    queryFn: async () => {
+      const res = await fetch(
+        `${API_URL}/api/public/categories/${slug}/articles?${queryParams}`
+      )
+      if (!res.ok) throw new Error('Failed to fetch articles')
+      return res.json()
+    },
+    staleTime: 5 * 60 * 1000 // 5 minutes
   })
 }

@@ -2,10 +2,24 @@ import { Link } from '@tanstack/react-router'
 import { CategoryBadge } from '../ui/category-badge'
 import { ArticleImage } from './article-image'
 import { formatDate, calculateReadTime } from '../../../lib/utils'
-import type { Article } from '../../../hooks/use-public-articles'
 
+// HeroArticle only needs these fields from Article
 interface HeroArticleProps {
-  article: Article
+  article: {
+    id: string
+    title: string
+    slug: string
+    content: string
+    excerpt: string | null
+    coverImageUrl: string | null
+    author: string
+    publishedAt: string | null
+    category: {
+      id: string
+      name: string
+      slug: string
+    }
+  }
 }
 
 export function HeroArticle({ article }: HeroArticleProps) {
@@ -47,7 +61,7 @@ export function HeroArticle({ article }: HeroArticleProps) {
               <div className="mt-4 flex items-center gap-3 text-neutral-300 text-sm md:text-base">
                 <span className="font-medium">{article.author}</span>
                 <span>•</span>
-                <span>{formatDate(article.publishedAt)}</span>
+                <span>{article.publishedAt ? formatDate(article.publishedAt) : '-'}</span>
                 <span>•</span>
                 <span>{calculateReadTime(article.content)}</span>
               </div>

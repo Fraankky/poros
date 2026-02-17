@@ -30,11 +30,12 @@ export function useArticles(page: number, limit: number) {
   })
 }
 
-export function useArticle(id: string) {
+export function useArticle(id: string, initialData?: ArticleResponse) {
   return useQuery<ArticleResponse>({
     queryKey: articlesKeys.detail(id),
     queryFn: () => getArticle(id),
     enabled: !!id,
+    initialData,
   })
 }
 
@@ -112,7 +113,7 @@ export function useDeleteArticle() {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: articlesKeys.lists() })
       queryClient.invalidateQueries({ queryKey: articlesKeys.stats() })
-      navigate({ to: '/admin/articles' })
+      navigate({ to: '/admin/articles', search: { page: 1 } })
     },
     onError: (error: Error) => {
       alert('Failed to delete article: ' + error.message)

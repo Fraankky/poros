@@ -289,4 +289,100 @@ router.get('/search', async (req, res) => {
   }
 })
 
+// GET /api/public/hero - Get featured article + 2 side articles for hero section
+router.get('/hero', async (req, res) => {
+  try {
+    // First try to get featured article
+    let featured = await prisma.article.findFirst({
+      where: {
+        status: 'PUBLISHED',
+        isFeatured: true
+      },
+      include: {
+        category: { select: { id: true, name: true, slug: true } }
+      }
+    })
+
+    // Fallback: get latest published article if no featured
+    if (!featured) {
+      featured = await prisma.article.findFirst({
+        where: { status: 'PUBLISHED' },
+        orderBy: { publishedAt: 'desc' },
+        include: {
+          category: { select: { id: true, name: true, slug: true } }
+        }
+      })
+    }
+
+    // Get 2 latest articles excluding featured for side articles
+    const sideArticles = await prisma.article.findMany({
+      where: {
+        status: 'PUBLISHED',
+        id: { not: featured?.id }
+      },
+      take: 2,
+      orderBy: { publishedAt: 'desc' },
+      include: {
+        category: { select: { id: true, name: true, slug: true } }
+      }
+    })
+
+    res.json({ featured, sideArticles })
+  } catch (error) {
+    console.error('Error fetching hero articles:', error)
+    res.status(500).json({ error: 'Failed to fetch hero articles' })
+  }
+})
+
+// GET /api/public/categories/:slug/articles - Get articles by category
+router.get('/categories/:slug/articles', async (req, res) => {
+  try {
+    const { slug } = req.params
+    const page = parseInt(req.query.page) || 1
+    const limit = parseInt(req.query.limit) || 12
+    const excludeParam = req.query.exclude
+
+    // Parse exclude IDs from comma-separated string
+    const excludeIds = excludeParam 
+      ? excludeParam.split(',').filter(id => id.trim())
+      : []
+
+    const where = {
+      status: 'PUBLISHED',
+      category: { slug }
+    }
+
+    // Add exclude filter if there are IDs to exclude
+    if (excludeIds.length > 0) {
+      where.id = { notIn: excludeIds }
+    }
+
+    const [articles, total] = await Promise.all([
+      prisma.article.findMany({
+        where,
+        skip: (page - 1) * limit,
+        take: limit,
+        orderBy: { publishedAt: 'desc' },
+        include: {
+          category: { select: { id: true, name: true, slug: true } }
+        }
+      }),
+      prisma.article.count({ where })
+    ])
+
+    res.json({
+      articles,
+      pagination: {
+        page,
+        limit,
+        total,
+        totalPages: Math.ceil(total / limit)
+      }
+    })
+  } catch (error) {
+    console.error('Error fetching category articles:', error)
+    res.status(500).json({ error: 'Failed to fetch category articles' })
+  }
+})
+
 export default router

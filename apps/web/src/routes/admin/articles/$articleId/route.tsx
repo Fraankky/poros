@@ -5,18 +5,43 @@ import { useCategories } from '@/hooks/use-categories'
 import { CoverUpload } from '@/components/admin/cover-upload'
 import { StatusBadge } from '@/components/admin/status-badge'
 import { Trash2 } from 'lucide-react'
+import { getArticle } from '@/lib/api'
 
+// Define the params type
+type ArticleParams = {
+  articleId: string
+}
+
+// TanStack Router best practice: Use loader to fetch data before rendering
 export const Route = createFileRoute('/admin/articles/$articleId')({
+  // Parse params with validation
+  parseParams: (params): ArticleParams => ({
+    articleId: params.articleId,
+  }),
+  // Loader fetches data before component renders (avoids loading states)
+  loader: async ({ params }) => {
+    return await getArticle(params.articleId)
+  },
+  // Error handling for loader failures
+  errorComponent: ({ error }) => (
+    <div className="p-8 text-center">
+      <h2 className="text-xl font-bold text-red-600 mb-2">Error Loading Article</h2>
+      <p className="text-black">{error.message}</p>
+    </div>
+  ),
   component: ArticleEditPage,
 })
 
 function ArticleEditPage() {
+  // Get the pre-loaded data
   const { articleId } = Route.useParams()
+  const initialData = Route.useLoaderData()
   const navigate = useNavigate()
   const [selectedCategoryId, setSelectedCategoryId] = useState<string>('')
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
 
-  const { data: articleData, isLoading } = useArticle(articleId)
+  // Use the hook with initial data from loader (avoids second fetch)
+  const { data: articleData, isLoading, error } = useArticle(articleId, initialData)
   const { data: categoriesData } = useCategories()
   const uploadCover = useUploadCover(articleId)
   const deleteCover = useDeleteCover(articleId)
@@ -25,6 +50,7 @@ function ArticleEditPage() {
 
   const article = articleData?.article
 
+  // Sync selected category when article loads
   useEffect(() => {
     if (article?.categoryId) {
       setSelectedCategoryId(article.categoryId)
@@ -33,17 +59,45 @@ function ArticleEditPage() {
 
   const categoryChanged = selectedCategoryId !== (article?.categoryId || '')
 
-  if (isLoading) {
-    return <div className="flex items-center justify-center h-64">Loading...</div>
+  // Show error state
+  if (error) {
+    return (
+      <div className="p-8 text-center">
+        <h2 className="text-xl font-bold text-red-600 mb-2">Error</h2>
+        <p className="text-black">{error.message}</p>
+        <button
+          onClick={() => navigate({ to: '/admin/articles', search: { page: 1 } })}
+          className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg"
+        >
+          Back to Articles
+        </button>
+      </div>
+    )
+  }
+
+  // Show not found state
+  if (!isLoading && !article) {
+    return (
+      <div className="p-8 text-center">
+        <h2 className="text-xl font-bold mb-2">Article Not Found</h2>
+        <p className="text-black mb-4">The article you are looking for does not exist.</p>
+        <button
+          onClick={() => navigate({ to: '/admin/articles', search: { page: 1 } })}
+          className="px-4 py-2 bg-blue-600 text-white rounded-lg"
+        >
+          Back to Articles
+        </button>
+      </div>
+    )
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 text-black">
       {/* Header */}
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-2xl font-bold">{article?.title || 'Edit Article'}</h1>
-          <p className="text-sm text-gray-500 mt-1">
+          <p className="text-sm text-black mt-1">
             Slug: {article?.slug}
           </p>
         </div>
@@ -57,7 +111,7 @@ function ArticleEditPage() {
           </button>
           <button
             onClick={() => navigate({ to: '/admin/articles', search: { page: 1 } })}
-            className="text-gray-600 hover:text-gray-800 px-4 py-2 border rounded-lg"
+            className="text-black hover:text-gray-600 px-4 py-2 border rounded-lg"
           >
             ← Back to Articles
           </button>
@@ -73,13 +127,13 @@ function ArticleEditPage() {
 
             <div className="grid grid-cols-2 gap-4 text-sm">
               <div>
-                <span className="text-gray-500">Status:</span>
+                <span className="text-black font-medium">Status:</span>
                 <span className="ml-2">
                   {article && <StatusBadge status={article.status} />}
                 </span>
               </div>
               <div>
-                <span className="text-gray-500">Category:</span>
+                <span className="text-black font-medium">Category:</span>
                 <select
                   value={selectedCategoryId}
                   onChange={(e) => setSelectedCategoryId(e.target.value)}
@@ -93,11 +147,11 @@ function ArticleEditPage() {
                 </select>
               </div>
               <div>
-                <span className="text-gray-500">Author:</span>
+                <span className="text-black font-medium">Author:</span>
                 <span className="ml-2">{article?.author}</span>
               </div>
               <div>
-                <span className="text-gray-500">Last Updated:</span>
+                <span className="text-black font-medium">Last Updated:</span>
                 <span className="ml-2">
                   {article?.updatedAt
                     ? new Date(article.updatedAt).toLocaleDateString()
@@ -108,16 +162,16 @@ function ArticleEditPage() {
 
             {article?.excerpt && (
               <div className="mt-4">
-                <span className="text-gray-500 text-sm">Excerpt:</span>
-                <p className="mt-1 text-gray-700 bg-gray-50 p-3 rounded">
+                <span className="text-black text-sm font-medium">Excerpt:</span>
+                <p className="mt-1 text-black bg-gray-50 p-3 rounded">
                   {article.excerpt}
                 </p>
               </div>
             )}
 
             <div className="mt-4">
-              <span className="text-gray-500 text-sm">Content Preview:</span>
-              <div className="mt-1 text-gray-700 bg-gray-50 p-3 rounded max-h-48 overflow-y-auto">
+              <span className="text-black text-sm font-medium">Content Preview:</span>
+              <div className="mt-1 text-black bg-gray-50 p-3 rounded max-h-48 overflow-y-auto">
                 <div dangerouslySetInnerHTML={{
                   __html: article?.content?.substring(0, 500) + '...' || 'No content'
                 }} />
@@ -136,7 +190,7 @@ function ArticleEditPage() {
                 </button>
                 <button
                   onClick={() => setSelectedCategoryId(article?.categoryId || '')}
-                  className="text-gray-500 hover:text-gray-700 text-sm"
+                  className="text-black hover:text-gray-600 text-sm"
                 >
                   Cancel
                 </button>
@@ -186,16 +240,16 @@ function ArticleEditPage() {
       {showDeleteConfirm && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg shadow-xl max-w-md w-full mx-4 p-6">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
+            <h3 className="text-lg font-semibold text-black mb-2">
               Delete Article?
             </h3>
-            <p className="text-gray-600 mb-4">
-              Are you sure you want to delete "{article?.title}"? This action cannot be undone.
+            <p className="text-black mb-4">
+              Are you sure you want to delete &quot;{article?.title}&quot;? This action cannot be undone.
             </p>
             <div className="flex justify-end gap-3">
               <button
                 onClick={() => setShowDeleteConfirm(false)}
-                className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg"
+                className="px-4 py-2 text-black hover:bg-gray-100 rounded-lg"
               >
                 Cancel
               </button>

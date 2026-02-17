@@ -9,12 +9,17 @@ export const Route = createFileRoute('/_public/search')({
   component: SearchPage,
 })
 
+interface SearchParams {
+  q?: string
+  page?: number
+}
+
 function SearchPage() {
-  const searchParams = useSearch({ from: '/_public/search' })
+  const searchParams = useSearch({ from: '/_public/search' }) as SearchParams
   const navigate = useNavigate()
   
-  const initialQuery = (searchParams.q as string) || ''
-  const initialPage = Number(searchParams.page) || 1
+  const initialQuery = searchParams.q || ''
+  const initialPage = searchParams.page || 1
   
   const [query, setQuery] = useState(initialQuery)
   const [inputValue, setInputValue] = useState(initialQuery)

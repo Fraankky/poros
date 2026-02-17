@@ -36,7 +36,7 @@ function LoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <h1 className="text-2xl font-bold text-center mb-6">Admin Login</h1>
-        <p className="text-center text-sm text-gray-500 mb-4">
+        <p className="text-center text-sm text-black-500 mb-4">
           Default: admin@poros.dev / admin123
         </p>
 
@@ -48,7 +48,7 @@ function LoginPage() {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-black-700 mb-1">
               Email
             </label>
             <input
@@ -61,7 +61,7 @@ function LoginPage() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-black-700 mb-1">
               Password
             </label>
             <input

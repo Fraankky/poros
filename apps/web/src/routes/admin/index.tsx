@@ -18,15 +18,15 @@ function DashboardPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white p-6 rounded-lg shadow">
-          <p className="text-sm text-gray-500">Total Articles</p>
+          <p className="text-sm text-black-500">Total Articles</p>
           <p className="text-3xl font-bold">{stats?.total || 0}</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
-          <p className="text-sm text-gray-500">With Cover</p>
+          <p className="text-sm text-black-500">With Cover</p>
           <p className="text-3xl font-bold text-green-600">{stats?.withCover || 0}</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
-          <p className="text-sm text-gray-500">Without Cover</p>
+          <p className="text-sm text-black-500">Without Cover</p>
           <p className="text-3xl font-bold text-red-600">{stats?.withoutCover || 0}</p>
         </div>
       </div>
@@ -39,7 +39,7 @@ function DashboardPage() {
             style={{ width: `${stats?.coverPercentage || 0}%` }}
           />
         </div>
-        <p className="text-sm text-gray-500 mt-2">
+        <p className="text-sm text-black-500 mt-2">
           {stats?.coverPercentage || 0}% complete ({stats?.withCover || 0} / {stats?.total || 0})
         </p>
       </div>

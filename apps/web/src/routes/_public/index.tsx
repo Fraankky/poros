@@ -1,114 +1,131 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
-import { usePublicFeatured } from '../../hooks/use-public-articles'
-import { usePublicCategories } from '../../hooks/use-public-categories'
-import { HeroArticle } from '../../components/public/article/hero-article'
-import { ArticleGrid } from '../../components/public/article/article-grid'
-import { CategoryBadge } from '../../components/public/ui/category-badge'
-import { ChevronRight } from 'lucide-react'
+import { createFileRoute } from '@tanstack/react-router'
+import { useQueries } from '@tanstack/react-query'
+import { useHeroArticles, type Article } from '../../hooks/use-public-articles'
+import { usePublicCategories, type Category } from '../../hooks/use-public-categories'
+import { HeroSection, HeroSkeleton } from '../../components/public/home'
+import { CategorySectionVaried, CategorySectionSkeleton } from '../../components/public/home'
+
+// @ts-ignore - Vite env
+const API_URL = import.meta.env?.VITE_API_URL || 'http://localhost:3001'
+
+interface CategoryArticlesResponse {
+  articles: Article[]
+  pagination: {
+    page: number
+    limit: number
+    total: number
+    totalPages: number
+  }
+}
+
+// Category configuration with specific order, layout variants, and article limits
+const CATEGORY_CONFIG: { 
+  slug: string; 
+  variant: 'three-col' | 'two-col-featured' | 'two-col' | 'mixed';
+  limit: number;
+}[] = [
+  { slug: 'berita-nasional', variant: 'three-col', limit: 3 },      // 3 cards
+  { slug: 'opini', variant: 'two-col-featured', limit: 6 },         // 6 cards (1 featured + 5 horizontal)
+  { slug: 'resensi', variant: 'two-col', limit: 4 },                // 4 cards (2x2 grid)
+  { slug: 'riset', variant: 'mixed', limit: 4 },                    // 3 cards (1 large + 2 compact)
+  { slug: 'sastra', variant: 'three-col', limit: 3 },               // 3 cards
+]
 
 export const Route = createFileRoute('/_public/')({
   component: HomePage,
 })
 
 function HomePage() {
-  const { data: featuredData, isLoading: isLoadingFeatured } = usePublicFeatured()
+  // Fetch hero articles (featured + 2 side articles)
+  const { data: heroData, isLoading: isLoadingHero } = useHeroArticles()
+  
+  // Fetch categories
   const { data: categoriesData } = usePublicCategories()
-
-  const hero = featuredData?.hero
-  const grid = featuredData?.grid || []
-  const categories = categoriesData?.categories || []
+  
+  const featured = heroData?.featured
+  const sideArticles = heroData?.sideArticles || []
+  const allCategories = categoriesData?.categories || []
+  
+  // Get IDs to exclude (featured + side articles)
+  const excludeIds: string[] = [
+    ...(featured ? [featured.id] : []),
+    ...sideArticles.map((a: Article) => a.id)
+  ].filter((id): id is string => Boolean(id))
+  
+  // Filter categories based on config order
+  const categoriesToShow = CATEGORY_CONFIG.map(config => 
+    allCategories.find(cat => cat.slug === config.slug)
+  ).filter((cat): cat is Category => Boolean(cat))
+  
+  // Fetch articles for each configured category with specific limits
+  const categoryQueries = useQueries({
+    queries: categoriesToShow.map((cat) => {
+      const config = CATEGORY_CONFIG.find(c => c.slug === cat.slug)
+      const limit = config?.limit || 3
+      
+      return {
+        queryKey: ['public', 'articles', 'category', cat.slug, { limit, excludeIds }],
+        queryFn: async (): Promise<CategoryArticlesResponse> => {
+          const queryParams = new URLSearchParams({
+            limit: limit.toString(),
+            page: '1'
+          })
+          if (excludeIds.length > 0) {
+            queryParams.append('exclude', excludeIds.join(','))
+          }
+          const res = await fetch(
+            `${API_URL}/api/public/categories/${cat.slug}/articles?${queryParams}`
+          )
+          if (!res.ok) throw new Error('Failed to fetch category articles')
+          return res.json()
+        },
+        enabled: !isLoadingHero && excludeIds.length > 0,
+        staleTime: 5 * 60 * 1000 // 5 minutes
+      }
+    })
+  })
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {isLoadingFeatured ? (
-          <div className="animate-pulse">
-            <div className="aspect-[21/9] bg-neutral-200 dark:bg-neutral-800 rounded-2xl" />
-          </div>
-        ) : hero ? (
-          <HeroArticle article={hero} />
+        {isLoadingHero ? (
+          <HeroSkeleton />
+        ) : featured ? (
+          <HeroSection 
+            featured={featured} 
+            sideArticles={sideArticles} 
+          />
         ) : null}
       </section>
 
-      {/* Latest Articles Grid */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="font-sans font-bold text-2xl text-neutral-900 dark:text-white">
-            Artikel Terbaru
-          </h2>
-          <Link 
-            to="/kategori/$slug"
-            params={{ slug: 'berita-jogja' }}
-            className="hidden sm:flex items-center gap-1 text-sm font-medium text-poros-600 dark:text-poros-400 hover:underline"
-          >
-            Lihat Semua
-            <ChevronRight className="w-4 h-4" />
-          </Link>
-        </div>
-        
-        {isLoadingFeatured ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[...Array(6)].map((_, i) => (
-              <div key={i} className="animate-pulse">
-                <div className="aspect-[16/10] bg-neutral-200 dark:bg-neutral-800 rounded-lg" />
-                <div className="mt-3 h-4 bg-neutral-200 dark:bg-neutral-800 rounded w-3/4" />
-                <div className="mt-2 h-3 bg-neutral-200 dark:bg-neutral-800 rounded w-1/2" />
-              </div>
-            ))}
-          </div>
-        ) : (
-          <ArticleGrid articles={grid} columns={3} />
-        )}
-      </section>
-
-      {/* Categories Section */}
-      <section className="bg-neutral-50 dark:bg-neutral-900/50 border-y border-neutral-200 dark:border-neutral-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h2 className="font-sans font-bold text-xl text-neutral-900 dark:text-white mb-6">
-            Jelajahi Kategori
-          </h2>
-          <div className="flex flex-wrap gap-3">
-            {categories.map(cat => (
-              <Link
-                key={cat.id}
-                to="/kategori/$slug"
-                params={{ slug: cat.slug }}
-                className="group flex items-center gap-2 px-4 py-2 bg-white dark:bg-neutral-800 rounded-full border border-neutral-200 dark:border-neutral-700 hover:border-poros-300 dark:hover:border-poros-700 transition-colors"
-              >
-                <CategoryBadge category={cat} size="sm" />
-                <span className="text-sm text-neutral-500 dark:text-neutral-400">
-                  {cat.articleCount} artikel
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="font-sans font-bold text-3xl text-neutral-900 dark:text-white mb-4">
-            Temukan Lebih Banyak
-          </h2>
-          <p className="text-neutral-600 dark:text-neutral-400 mb-8">
-            Jelajahi berbagai artikel menarik dari berbagai kategori yang kami sajikan untuk Anda.
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            {categories.slice(0, 4).map(cat => (
-              <Link
-                key={cat.id}
-                to="/kategori/$slug"
-                params={{ slug: cat.slug }}
-                className="px-6 py-3 bg-poros-600 hover:bg-poros-700 text-white font-medium rounded-lg transition-colors"
-              >
-                {cat.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Category Sections */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {categoriesToShow.map((cat: Category, index: number) => {
+          const query = categoryQueries[index]
+          const isLoading = query?.isLoading || !query?.data
+          const config = CATEGORY_CONFIG.find(c => c.slug === cat.slug)
+          
+          return (
+            <div 
+              key={cat.id}
+              className={index > 0 ? 'border-t border-neutral-200 dark:border-neutral-800' : ''}
+            >
+              {isLoading ? (
+                <CategorySectionSkeleton />
+              ) : (
+                <CategorySectionVaried
+                  categoryName={cat.name}
+                  categorySlug={cat.slug}
+                  articles={query.data?.articles || []}
+                  totalCount={query.data?.pagination?.total}
+                  variant={config?.variant || 'three-col'}
+                />
+              )}
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }

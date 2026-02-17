@@ -101,7 +101,7 @@ export function CoverUpload({
             {previewUrl && (
               <button
                 onClick={clearSelection}
-                className="flex-1 bg-gray-100 text-gray-600 px-3 py-2 rounded-lg hover:bg-gray-200 text-sm"
+                className="flex-1 bg-gray-100 text-black-600 px-3 py-2 rounded-lg hover:bg-gray-200 text-sm"
               >
                 Cancel
               </button>
@@ -109,8 +109,8 @@ export function CoverUpload({
           </div>
         </div>
       ) : (
-        <div className="mb-4 p-8 bg-gray-100 rounded-lg text-center text-gray-500">
-          <svg className="mx-auto h-12 w-12 mb-2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div className="mb-4 p-8 bg-gray-100 rounded-lg text-center text-black-500">
+          <svg className="mx-auto h-12 w-12 mb-2 text-black-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
           <p>No cover image</p>
@@ -135,13 +135,13 @@ export function CoverUpload({
           id="cover-upload"
         />
         <label htmlFor="cover-upload" className="cursor-pointer block">
-          <svg className="mx-auto h-8 w-8 mb-2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="mx-auto h-8 w-8 mb-2 text-black-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
           </svg>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-black-600">
             {isDragging ? 'Drop image here' : 'Drag & drop or click to upload'}
           </p>
-          <p className="text-xs text-gray-400 mt-1">
+          <p className="text-xs text-black-400 mt-1">
             JPG, PNG, WebP (max 10MB)
           </p>
         </label>
@@ -150,7 +150,7 @@ export function CoverUpload({
       {/* Upload Button */}
       {file && (
         <div className="mt-4">
-          <p className="text-sm text-gray-600 mb-2">
+          <p className="text-sm text-black-600 mb-2">
             Selected: {file.name} ({(file.size / 1024).toFixed(1)} KB)
           </p>
           <button

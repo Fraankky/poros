@@ -64,9 +64,11 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
               {children}
             </li>
           ),
-          code: ({ className, children, inline }) => {
+          code: ({ className, children, ...props }) => {
             const match = /language-(\w+)/.exec(className || '')
-            return !inline ? (
+            // @ts-ignore - inline is passed by react-markdown for inline code
+            const isInline = props.inline as boolean
+            return !isInline ? (
               <pre className="bg-[#1e1e1e] text-[#d4d4d4] p-5 md:p-6 rounded-lg overflow-x-auto my-8 leading-[1.6]">
                 <code className={`font-mono text-[15px] ${match ? `language-${match[1]}` : ''}`}>
                   {children}

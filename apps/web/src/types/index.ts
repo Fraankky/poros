@@ -23,7 +23,7 @@ export interface Article {
   authorEmail: string | null
   status: 'DRAFT' | 'PUBLISHED' | 'ARCHIVED'
   viewCount: number
-  publishedAt: string | null
+  publishedAt: string
   createdAt: string
   updatedAt: string
   categoryId: string

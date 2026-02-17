@@ -58,7 +58,7 @@ export function CategoryForm({
           <button
             type="button"
             onClick={onCancel}
-            className="text-gray-500 hover:text-gray-700 px-4 py-2 text-sm"
+            className="text-black-500 hover:text-black-700 px-4 py-2 text-sm"
           >
             Cancel
           </button>

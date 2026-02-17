@@ -25,10 +25,10 @@ export function Pagination({ page, totalPages, total, limit, onPageChange }: Pag
 
   return (
     <div className="flex items-center justify-between">
-      <p className="text-sm text-gray-600">
+      <p className="text-sm text-black">
         Showing {(page - 1) * limit + 1}–{Math.min(page * limit, total)} of {total}
       </p>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 text-black">
         <button
           onClick={() => onPageChange(page - 1)}
           disabled={page <= 1}
@@ -38,7 +38,7 @@ export function Pagination({ page, totalPages, total, limit, onPageChange }: Pag
         </button>
         {generatePageNumbers(page, totalPages).map((p, i) =>
           p === '...' ? (
-            <span key={`dots-${i}`} className="px-2 text-gray-400">...</span>
+            <span key={`dots-${i}`} className="px-2 text-black">...</span>
           ) : (
             <button
               key={p}

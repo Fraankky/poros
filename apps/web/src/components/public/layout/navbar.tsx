@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link, useRouter } from '@tanstack/react-router'
 import { Search, Menu, X, ChevronDown } from 'lucide-react'
 import { DarkModeToggle } from '../ui/dark-mode-toggle'
@@ -26,6 +26,7 @@ export function Navbar({ onSearchClick }: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isBeritaDropdownOpen, setIsBeritaDropdownOpen] = useState(false)
+  const dropdownRef = useRef<HTMLDivElement>(null)
   const router = useRouter()
 
   useEffect(() => {
@@ -40,8 +41,23 @@ export function Navbar({ onSearchClick }: NavbarProps) {
   useEffect(() => {
     return router.subscribe('onResolved', () => {
       setIsMobileMenuOpen(false)
+      setIsBeritaDropdownOpen(false)
     })
   }, [router])
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    if (!isBeritaDropdownOpen) return
+    
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsBeritaDropdownOpen(false)
+      }
+    }
+    
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [isBeritaDropdownOpen])
 
   return (
     <>
@@ -64,33 +80,44 @@ export function Navbar({ onSearchClick }: NavbarProps) {
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-1">
               {/* Berita Dropdown */}
-              <div className="relative">
+              <div 
+                className="relative" 
+                ref={dropdownRef}
+                onMouseEnter={() => setIsBeritaDropdownOpen(true)}
+                onMouseLeave={() => setIsBeritaDropdownOpen(false)}
+              >
                 <button
                   onClick={() => setIsBeritaDropdownOpen(!isBeritaDropdownOpen)}
-                  onMouseEnter={() => setIsBeritaDropdownOpen(true)}
                   className="flex items-center gap-1 px-3 py-2 text-[15px] font-medium text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white transition-colors"
                 >
                   Berita
-                  <ChevronDown className={`w-4 h-4 transition-transform ${isBeritaDropdownOpen ? 'rotate-180' : ''}`} />
+                  <ChevronDown 
+                    className={`w-4 h-4 transition-transform duration-200 ${isBeritaDropdownOpen ? 'rotate-180' : ''}`} 
+                  />
                 </button>
 
-                {isBeritaDropdownOpen && (
-                  <div
-                    className="absolute top-full left-0 mt-1 w-48 bg-white dark:bg-neutral-900 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-800 py-1"
-                    onClick={() => setIsBeritaDropdownOpen(false)}
-                  >
+                {/* Dropdown with smooth transition */}
+                <div
+                  className={`absolute top-full left-0 mt-0 pt-1 w-48 transition-all duration-200 origin-top ${
+                    isBeritaDropdownOpen 
+                      ? 'opacity-100 scale-100 translate-y-0 pointer-events-auto' 
+                      : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
+                  }`}
+                >
+                  <div className="bg-white dark:bg-neutral-900 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-800 py-1 overflow-hidden">
                     {BERITA_CATEGORIES.map(cat => (
                       <Link
                         key={cat.slug}
                         to="/kategori/$slug"
                         params={{ slug: cat.slug }}
-                        className="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-800"
+                        onClick={() => setIsBeritaDropdownOpen(false)}
+                        className="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors"
                       >
                         {cat.name}
                       </Link>
                     ))}
                   </div>
-                )}
+                </div>
               </div>
 
               {/* Other Categories */}

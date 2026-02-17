@@ -54,7 +54,7 @@ function AdminLayout() {
               <nav className="hidden md:flex space-x-4">
                 <Link
                   to="/admin"
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-black-600 hover:text-black-900"
                   activeProps={{ className: 'text-blue-600 font-medium' }}
                 >
                   Dashboard
@@ -62,14 +62,14 @@ function AdminLayout() {
                 <Link
                   to="/admin/articles"
                   search={{ page: 1 }}
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-black-600 hover:text-black-900"
                   activeProps={{ className: 'text-blue-600 font-medium' }}
                 >
                   Articles
                 </Link>
                 <Link
                   to="/admin/categories"
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-black-600 hover:text-black-900"
                   activeProps={{ className: 'text-blue-600 font-medium' }}
                 >
                   Categories
@@ -79,7 +79,7 @@ function AdminLayout() {
             <div className="flex items-center space-x-4">
               {user && (
                 <>
-                  <span className="text-sm text-gray-600">{user.name}</span>
+                  <span className="text-sm text-black-600">{user.name}</span>
                   <button
                     onClick={handleLogout}
                     className="text-sm text-red-600 hover:text-red-800"
