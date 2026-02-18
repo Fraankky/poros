@@ -1,0 +1,59 @@
+{
+  "article": {
+    "id": "4131ad70-9132-482a-857a-c977adfa0e3c",
+    "title": "Tarik Ulur Kebijakan Wisuda",
+    "slug": "tarik-ulur-kebijakan-wisuda",
+    "excerpt": "Komikus: Nava Yuni Naftivah",
+    "coverImageUrl": null,
+    "thumbnailUrl": null,
+    "author": "Persma Poros",
+    "viewCount": 0,
+    "status": "PUBLISHED",
+    "publishedAt": "2022-10-31T08:14:38.000Z",
+    "createdAt": "2022-10-31T08:14:38.000Z",
+    "category": {
+      "id": "94cd0cbd-ce3e-4a20-a0ac-d078fd052c5d",
+      "name": "Komik",
+      "slug": "komik"
+    },
+    "content": "Komikus: Nava Yuni Naftivah"
+  },
+  "related": [
+    {
+      "id": "58b7fc40-236c-4c3a-9b7e-8eaaed92bf26",
+      "title": "EStetika Mahkota PAda Kampus",
+      "slug": "estetika-mahkota-pada-kampus",
+      "excerpt": "KOMIKUS : HALIM",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-01-09T10:03:11.000Z",
+      "createdAt": "2020-01-09T10:03:11.000Z",
+      "category": {
+        "id": "94cd0cbd-ce3e-4a20-a0ac-d078fd052c5d",
+        "name": "Komik",
+        "slug": "komik"
+      }
+    },
+    {
+      "id": "26709d3a-6153-4a69-8ea7-1041d6ce56ec",
+      "title": "Mati dengan Tenang",
+      "slug": "mati-dengan-tenang",
+      "excerpt": "Komikus: Ryska",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-12-19T13:45:43.000Z",
+      "createdAt": "2019-12-19T13:45:43.000Z",
+      "category": {
+        "id": "94cd0cbd-ce3e-4a20-a0ac-d078fd052c5d",
+        "name": "Komik",
+        "slug": "komik"
+      }
+    }
+  ]
+}

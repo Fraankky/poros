@@ -2,25 +2,14 @@ import { useState, useEffect, useRef } from 'react'
 import { Link, useRouter } from '@tanstack/react-router'
 import { Search, Menu, X, ChevronDown } from 'lucide-react'
 import { DarkModeToggle } from '../ui/dark-mode-toggle'
+import { CATEGORIES } from '../../../config/categories'
 
 interface NavbarProps {
   onSearchClick: () => void
 }
 
-// Hardcoded categories - no need to fetch from DB as they don't change often
-const BERITA_CATEGORIES = [
-  { name: 'Berita Jogja', slug: 'berita-jogja' },
-  { name: 'Berita Kampus', slug: 'berita-kampus' },
-  { name: 'Berita Nasional', slug: 'berita-nasional' },
-]
-
-const OTHER_CATEGORIES = [
-  { name: 'Opini', slug: 'opini' },
-  { name: 'Resensi', slug: 'resensi' },
-  { name: 'Riset', slug: 'riset' },
-  { name: 'Sastra', slug: 'sastra' },
-  { name: 'Komik', slug: 'komik' },
-]
+const BERITA_CATEGORIES = CATEGORIES.berita
+const OTHER_CATEGORIES = CATEGORIES.others
 
 export function Navbar({ onSearchClick }: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -96,12 +85,12 @@ export function Navbar({ onSearchClick }: NavbarProps) {
                   />
                 </button>
 
-                {/* Dropdown with smooth transition */}
+                {/* Dropdown with smooth transition - pt-2 creates hover bridge without gap */}
                 <div
-                  className={`absolute top-full left-0 mt-0 pt-1 w-48 transition-all duration-200 origin-top ${
+                  className={`absolute top-full left-0 pt-2 w-48 transition-all duration-200 origin-top ${
                     isBeritaDropdownOpen 
-                      ? 'opacity-100 scale-100 translate-y-0 pointer-events-auto' 
-                      : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
+                      ? 'opacity-100 scale-100 translate-y-0 visible' 
+                      : 'opacity-0 scale-95 -translate-y-2 invisible'
                   }`}
                 >
                   <div className="bg-white dark:bg-neutral-900 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-800 py-1 overflow-hidden">

@@ -1,0 +1,563 @@
+{
+  "articles": [
+    {
+      "id": "0999b8a5-a463-4768-a63d-15073fbaffe0",
+      "title": "Live Streaming Harus Minta Izin, Siapa yang Dirugikan?",
+      "slug": "live-streaming-harus-minta-izin-siapa-yang-dirugikan",
+      "excerpt": "Seiring dengan berkembangnya teknologi, banyak inovasi-inovasi baru yang muncul di media sosial, salah satunya yaitu fitur live video streaming. Fitur ini merupakan konten yang berisi video dengan...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/1-png-mlqi12h0.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/1-png-mlqi12h0.webp",
+      "author": "Persma Poros",
+      "viewCount": 1,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-10-09T03:09:33.000Z",
+      "createdAt": "2020-10-09T03:09:33.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "87643fe3-374a-4b0e-919a-b52542861f91",
+      "title": "Kebebasan Forum Publik",
+      "slug": "kebebasan-forum-publik",
+      "excerpt": "Costitutional Law Society (CLS) Fakultas Hukum (FH)  Universitas Gadjah Mada (UGM) mendapat isu ancaman pembunuhan pada diskusi publik yang rencananya diselenggarakan pada 29 Mei 2020. Dikutip dari...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/qwertyu-1-png-mlqi2irw.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/qwertyu-1-png-mlqi2irw.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-07-01T02:25:09.000Z",
+      "createdAt": "2020-07-01T02:25:09.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "71492715-7cbe-4449-b904-9d755596c539",
+      "title": "Wacana Sekolah Dibuka Kembali",
+      "slug": "wacana-sekolah-dibuka-kembali",
+      "excerpt": "Kementerian Kesehatan (Kemenkes) mengeluarkan protocol peralihan dari PSBB menuju normal baru (new normal) melalui keputusan nomor HK.01.07/MENKES/328/2020 pada 20 Mei 2020 tentang Panduan Pencegahan...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/81250010-160518408695738-1717459384840592010-n-jpg-mlqi36nb.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/81250010-160518408695738-1717459384840592010-n-jpg-mlqi36nb.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-06-27T03:20:46.000Z",
+      "createdAt": "2020-06-27T03:20:46.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "07a03fff-d1ec-4169-a49a-df44f03f2a0e",
+      "title": "Perjalanan Susi Pudjiastuti",
+      "slug": "perjalanan-susi-pudjiastuti",
+      "excerpt": "Susi Pudjiastuti merupakan mantan Menteri Kelautan dan Perikanan ke-6 Republik Indonesia. Menjabat sebagai menteri sempat jadi sorotan publik karena gayanya yang eksentrik dan Susi yang tak mengenyam...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-06-24T11:49:10.000Z",
+      "createdAt": "2020-06-24T11:49:10.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "9448721d-654d-4633-848b-dcce45cde9ac",
+      "title": "New Normal DIY, Apa Kabar?",
+      "slug": "new-normal-diy-apa-kabar",
+      "excerpt": "Di tengah pandemi korona yang belum berakhir, pemerintah mengusulkan rencana penerapan new normal di beberapa daerah untuk menjadi angin segar bagi sebagian masyarakat. New normal merupakan tatanan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-06-21T06:30:08.000Z",
+      "createdAt": "2020-06-21T06:30:08.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "6578fd62-c5d7-44a9-beee-b96f5445739b",
+      "title": "Sampai Kapan Penjara Jadi Hukuman Segala Tindak Pidana?",
+      "slug": "sampai-kapan-penjara-jadi-hukuman-segala-tindak-pidana",
+      "excerpt": "Kebijakan asimilasi dan integrasi Kementerian Hukum dan HAM (Kemenkumham) membebaskan narapidana sebagai upaya pencegahan covid-19 menuai pro dan kontra dari masyarakat. Padatnya jumlah narapidana...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-05-08T13:56:56.000Z",
+      "createdAt": "2020-05-08T13:56:56.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "addb6428-889a-4bfd-87a3-01e0ed44b68d",
+      "title": "Nasib Upah Buruh",
+      "slug": "nasib-upah-buruh",
+      "excerpt": "Sejak pandemi covid-19 atau virus korona masuk ke Indonesia bulan Maret lalu, beberapa sektor mengalami dampak secara signifikan, salah satunya sektor ekonomi. Dilansir dari katadata.co.id bahwa...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-05-04T10:00:59.000Z",
+      "createdAt": "2020-05-04T10:00:59.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "62918fca-7814-402e-a997-398643f6c4ee",
+      "title": "Teknologi Berkembang, Hoax Tidak Dapat Dikendalikan",
+      "slug": "teknologi-berkembang-hoax-tidak-dapat-dikendalikan",
+      "excerpt": "Kemajuan teknologi di era digital memberikan pengaruh yang sangat besar bagi masyarakat luas. Dengan semakin berkembangnya teknologi dapat mempermudah masyarakat untuk mengakses informasi. Munculnya...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-04-13T13:55:24.000Z",
+      "createdAt": "2020-04-13T13:55:24.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "683daf7f-4690-4095-90b0-8a2e4ad1b237",
+      "title": "Hari Buku Anak Sedunia",
+      "slug": "hari-buku-anak-sedunia",
+      "excerpt": "Penulis novel Entrok, Okky Madasari, di laman cnnindonesia.com mengatakan bahwa rendahnya minat baca atau literasi di Indonesia disebabkan oleh keterbatasan akses pada buku. Menurutnya, banyak daerah tidak memiliki perpustakaan dan toko buku. Sebab kedua, yaitu kebiasaan membaca masyarakat yang tidak dibentuk di bangku sekolah.",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-04-07T10:55:01.000Z",
+      "createdAt": "2020-04-07T10:55:01.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "207bd9b3-c7c8-4939-a40f-d8e49f8137d9",
+      "title": "Omnibus Law di Indonesia",
+      "slug": "omnibus-law-di-indonesia",
+      "excerpt": "Omnibus Law atau yang sering kali diartikan sebagai rancangan undang-undang (RUU) dibuat untuk menyederhanakan regulasi yang sudah dibuat. Menurut Bivitri Savitri seorang pakar Hukum Tata Negara,...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-02-12T16:38:11.000Z",
+      "createdAt": "2020-02-12T16:38:11.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "1292c182-8969-4903-a99e-b591313f5df7",
+      "title": "Indeks Pembangunan Manusia di Indonesia Perlu Perhatian Khusus",
+      "slug": "indeks-pembangunan-manusia-di-indonesia-perlu-perhatian-khusus",
+      "excerpt": "Tahun 1990 United Nations Development Programme (UNDP) membentuk Indeks Pembangunan Manusia (IPM) dengan tujuan untuk meningkatkan aspek kehidupan masyarakat. Aspek-aspek IPM meliputi angka harapan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-01-28T09:47:10.000Z",
+      "createdAt": "2020-01-28T09:47:10.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "82ba86e4-0a76-4bad-bf56-8c89dc0dde22",
+      "title": "Keberadaan Limbah Medis",
+      "slug": "keberadaan-limbah-medis",
+      "excerpt": "Limbah medis merupakan salah satu masalah yang dihadapi\noleh penyedia layanan kesehatan. Limbah medis ada yang tidak dapat diperbaharui\ndan ada juga yang dapat diperbaharui, tentunya harus melalui...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-01-19T08:13:49.000Z",
+      "createdAt": "2020-01-19T08:13:49.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "db96d79c-24e6-4bda-af32-b546085bfa06",
+      "title": "Waspadai Penyakit di Musim Hujan",
+      "slug": "waspadai-penyakit-di-musim-hujan",
+      "excerpt": "Musim pancaroba yang terjadi di Kota Yogyakarta sejak bulan akhir Desember 2019 kemarin sampai sekarang menjadi perbincangan hangat di kalangan masyarakat. Keadaan udara yang tidak menentu, banyak...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-01-12T13:23:34.000Z",
+      "createdAt": "2020-01-12T13:23:34.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "82fbb2fb-3ea4-4d14-aeb3-19fede81d691",
+      "title": "Waktu Belajar Indonesia Dibanding Negara-Negara Tetangga",
+      "slug": "waktu-belajar-indonesia-dibanding-negara-negara-tetangga",
+      "excerpt": "Sumber Foto: Google",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-12-27T15:21:15.000Z",
+      "createdAt": "2019-12-27T15:21:15.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "35498c4a-9aa7-4eb3-8403-c94ebb6ecd80",
+      "title": "Kasus Pelanggaran HAM yang Belum Tuntas",
+      "slug": "kasus-pelanggaran-ham-yang-belum-tuntas",
+      "excerpt": "Hak asasi manusia merupakan hak kodrati yang melekat dan tidak dapat dipisahkan dari manusia itu sendiri yang meliputi jaminan perlindungan atas hak-hak yang tidak dapat dikurangi dalam situasi...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-12-23T23:11:12.000Z",
+      "createdAt": "2019-12-23T23:11:12.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "b78117fb-f817-4609-bda9-1b150eca4621",
+      "title": "Eksistensi Kantin Kampus IV UAD",
+      "slug": "eksistensi-kantin-kampus-iv-uad",
+      "excerpt": "Kantin Kampus IV Universitas Ahmad Dahlan (UAD) terletak di bagian barat gedung Fakultas Kedokteran (FK). Didirikannya kantin ini sebagai pendukung sementara kebutuhan fasilitas civitas akademika....",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-12-14T07:37:53.000Z",
+      "createdAt": "2019-12-14T07:37:53.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "846efcb3-1433-4dc1-ada6-bb99c1906f5b",
+      "title": "Kepuasan Mahasiswa UAD Akan Fasilitas Anjungan",
+      "slug": "kepuasan-mahasiswa-uad-akan-fasilitas-anjungan",
+      "excerpt": "Sebagai tempat berlangsungnya kegiatan pembelajaran, tiap-tiap kampus terdapat sarana dan prasarana yang digunakan untuk mendukung kegiatan akademik mahasiswa. Sarana dan prasarana itu biasa disebut...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-04-30T07:37:48.000Z",
+      "createdAt": "2019-04-30T07:37:48.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "67c4433c-6e40-4e86-a4b5-16c601dc079d",
+      "title": "Galang Dana, UAD Naikkan SPP Sepuluh Ribu",
+      "slug": "galang-dana-uad-naikkan-spp-sepuluh-ribu",
+      "excerpt": "Pada 28 September lalu, Indonesia dikejutkan dengan gempa yang mengguncang Kota Palu dan Kabupaten Donggala dengan kekuatan 7,5 SR yang menimbulkan tsunami.  Badan Nasional Penanggulangan Bencana...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-01-11T16:14:12.000Z",
+      "createdAt": "2019-01-11T16:14:12.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "0187fdf0-055b-4514-b1d5-e8053591ee07",
+      "title": "Minat Baca Mahasiswa UAD",
+      "slug": "minat-baca-mahasiswa-uad",
+      "excerpt": "Integritas Moral dan Intelektual (Moral and Intellectual Integrity) menjadi moto Universitas Ahmad Dahlan (UAD) sejak berdirinya pada tanggal 18 November 1960. UAD yang berlokasi di Yogyakarta...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-11-25T00:37:54.000Z",
+      "createdAt": "2018-11-25T00:37:54.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "0e63a301-709a-4584-84d8-94b3efa4bb1d",
+      "title": "Walau Hanya  Bersifat Sementara, Parkiran Kampus IV UAD Tetap Perlu Pembenahan",
+      "slug": "walau-hanya-bersifat-sementara-parkiran-kampus-iv-uad-tetap-perlu-pembenahan",
+      "excerpt": "Pada pertengahan 2018, Universitas Ahmad Dahlan (UAD) menerima sekitar kurang lebih 7.000-an mahasiswa baru dari berbagai fakultas. Bahkan saat ini, UAD telah memiliki sebelas fakultas dengan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-10-21T05:15:36.000Z",
+      "createdAt": "2018-10-21T05:15:36.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "c25f156f-b751-46b8-90a7-5466676b63dd",
+      "title": "Amal Usaha UAD : Dari Rumah Sakit Hingga SPBU",
+      "slug": "amal-usaha-uad-dari-rumah-sakit-hingga-spbu",
+      "excerpt": "Amal usaha Universitas Ahmad Dahlan (UAD) didirikan dengan tujuan untuk menunjang biaya universitas agar tidak bergantung pada Sumbangan Pembinaan Pendidikan (SPP) mahasiswa. Divisi Penelitian dan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-05-29T11:11:43.000Z",
+      "createdAt": "2018-05-29T11:11:43.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "72a270e0-358f-46c1-a1a4-babfa44447ff",
+      "title": "Perjalanan Singkat Najwa Shihab",
+      "slug": "perjalanan-singkat-najwa-shihab",
+      "excerpt": "[caption id=\"attachment_3771\" align=\"aligncenter\" width=\"800\"] biografi Najwa shihab[/caption]\r\nNajwa Shihab adalah salah satu jurnalis muda dengan segudang prestasi. Selain itu, ia juga terkenal...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-05-13T14:39:41.000Z",
+      "createdAt": "2018-05-13T14:39:41.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "4c6ce1b6-c0aa-4959-9158-449f3e667a08",
+      "title": "Kiprah Ki Hajar Dewantara Terhadap Pendidikan di Indonesia",
+      "slug": "kiprah-ki-hajar-dewantara-terhadap-pendidikan-di-indonesia",
+      "excerpt": "Ki Hajar Dewantara sebagai Bapak Pendidikan Nasional Indonesia tentu saja memiliki banyak jasa dan kiprahnya dalam dunia pendidikan. Selain mendirikan Perguruan Tamansiswa, kiprahnya juga dalam...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-05-10T15:10:12.000Z",
+      "createdAt": "2018-05-10T15:10:12.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "4119da4d-31a2-415b-8c92-8ba88da7b746",
+      "title": "Mengetahui Lebih Banyak tentang SKPI",
+      "slug": "mengetahui-lebih-banyak-tentang-skpi",
+      "excerpt": "Melalui surat keputusan SKPI/IFS1/2015/012345, Universitas Ahmad Dahlan (UAD) menganjurkan setiap mahasiswa untuk memiliki SKPI (Surat Keterangan Pendamping Ijazah). Dalam Peraturan Menteri...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-12-18T02:30:06.000Z",
+      "createdAt": "2017-12-18T02:30:06.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "5ff68c50-98cd-4b3b-be1c-3c6e5f075389",
+      "title": "Persoalan P2K 2014 - 2017",
+      "slug": "persoalan-p2k-2014-2017",
+      "excerpt": "Sejak tahun 2014 hingga 2017, Program Pengenalan Kampus (P2K) yang dilaksanakan Universitas Ahmad Dahlan (UAD) tidak melibatkan semua mahasiswa baru (maba). Banyak hal yang menjadi permasalahan....",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-09-19T10:44:20.000Z",
+      "createdAt": "2017-09-19T10:44:20.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "2d239157-56ae-4fbf-b956-dfcd2a80a77e",
+      "title": "Tahukah Anda Isi Sumpah Pemuda?",
+      "slug": "tahukah-anda-isi-sumpah-pemuda",
+      "excerpt": "",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-10-30T06:10:07.000Z",
+      "createdAt": "2016-10-30T06:10:07.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "75e096e0-2797-4f7f-96ff-4ed345edfa74",
+      "title": "Pendaftaran UKM UAD 2016",
+      "slug": "pendaftaran-ukm-uad-2016",
+      "excerpt": "",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-09-15T19:52:52.000Z",
+      "createdAt": "2016-09-15T19:52:52.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "92d74cbd-c9f1-4537-a00d-3a94b0c00561",
+      "title": "Pendapat Maba 2016 Tentang SPP UAD",
+      "slug": "pendapat-maba-2016-tentang-spp-uad",
+      "excerpt": "Berdasarkan rilis data panitia P2K pada 24 Agustus 2016, terdapat  4.625 Mahasiswa baru (Maba) yang mengikuti Program Pengenalan Kampus (P2K) 2016 di Universitas Ahmad Dahlan (UAD). Hal ini...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-09-08T22:17:34.000Z",
+      "createdAt": "2016-09-08T22:17:34.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "572e6d2d-29e6-4ada-8dff-3d77f421d3d1",
+      "title": "99,62% Mahasiswa Setuju Fasilitas Anjungan Kampus UAD Ditingkatkan",
+      "slug": "9962-mahasiswa-setuju-fasilitas-anjungan-kampus-uad-ditingkatkan",
+      "excerpt": "Dewasa ini, komputer dan akses internet sudah menjadi sebuah kebutuhan primer, baik bagi mahasiswa maupun masyarakat umum. Universitas Ahmad Dahlan (UAD) misalnya, kampus Orange ini sudah lama...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-07-26T07:25:42.000Z",
+      "createdAt": "2016-07-26T07:25:42.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "5bb3ccd7-a7c3-4ffa-8cf4-192c0894957e",
+      "title": "Buah Manis Desa Wisata",
+      "slug": "buah-manis-desa-wisata",
+      "excerpt": "Salah satu objek wisata di Daerah Istimewa Yogyakarta (DIY) ialah wisata pedesaan atau disebut juga desa wisata. Hingga November 2015, tercatat ada 120 desa wisata yang tersebar di empat kabupaten...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Marwah Ulfatunnisa",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-04-11T08:50:18.000Z",
+      "createdAt": "2016-04-11T08:50:18.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    },
+    {
+      "id": "f556e424-b321-4d96-8ba1-6f88972ecd30",
+      "title": "Pengetahuan Tentang Partai Rendah, Minat Untuk Memilih Tinggi",
+      "slug": "pengetahuan-tentang-partai-rendah-minat-untuk-memilih-tinggi",
+      "excerpt": "Setelah gagal dalam beberapa tahun terakhir, Pemilwa kini akan dilaksanakan pada 4 Juni 2015. Semenjak dilantik pada 29 April lalu, KPUM baru mensosialisasikan perihal Pemilwa pada  tanggal 4 Mei...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2015-06-03T12:14:59.000Z",
+      "createdAt": "2015-06-03T12:14:59.000Z",
+      "category": {
+        "id": "4f8c8922-71c5-4bca-9389-6acb5081ad70",
+        "name": "Riset",
+        "slug": "riset"
+      }
+    }
+  ],
+  "total": 31
+}

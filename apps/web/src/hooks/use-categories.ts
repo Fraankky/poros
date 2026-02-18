@@ -7,21 +7,10 @@ import {
 } from '@/lib/api'
 import type { CategoriesResponse } from '@/types'
 
-// Hardcoded categories for public navbar - these don't change often
-export const HARDCODED_CATEGORIES = {
-  berita: [
-    { name: 'Berita Jogja', slug: 'berita-jogja' },
-    { name: 'Berita Kampus', slug: 'berita-kampus' },
-    { name: 'Berita Nasional', slug: 'berita-nasional' },
-  ],
-  others: [
-    { name: 'Resensi', slug: 'resensi' },
-    { name: 'Opini', slug: 'opini' },
-    { name: 'Komik', slug: 'komik' },
-    { name: 'Riset', slug: 'riset' },
-    { name: 'Sastra', slug: 'sastra' },
-  ],
-}
+import { CATEGORIES } from '../config/categories'
+
+// Re-export for backward compatibility
+export const HARDCODED_CATEGORIES = CATEGORIES
 
 // Query keys
 const categoriesKeys = {

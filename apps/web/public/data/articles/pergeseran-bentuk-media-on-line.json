@@ -1,0 +1,95 @@
+{
+  "article": {
+    "id": "9669ea71-9ad8-4fdd-bac9-2c0daf11b440",
+    "title": "Pergeseran bentuk media on line",
+    "slug": "pergeseran-bentuk-media-on-line",
+    "excerpt": "Pergeseran bentuk media on line",
+    "coverImageUrl": null,
+    "thumbnailUrl": null,
+    "author": "Persma Poros",
+    "viewCount": 0,
+    "status": "PUBLISHED",
+    "publishedAt": "2007-12-22T17:50:45.000Z",
+    "createdAt": "2007-12-22T17:50:45.000Z",
+    "category": {
+      "id": "91419063-53db-4b46-be00-3203d725b184",
+      "name": "Berita",
+      "slug": "berita"
+    },
+    "content": "Pergeseran bentuk media on line\n\nArtikel ini pernah diterbitkan di SATUNET, 30 Maret 2000\n\nMedia massa (koran dan majalah) on-line mulai dikhawatirkan akan mencaplok media massa tradisional. AOL mengakuisisi Time Warner, perusahaan Internet eBay mulai membeli saham perusahaan lelang, perusahaan buku online Amazon yang mulai menyaingi Barner and Noble dalam penjualannya. Bahkan perubahan ini memberikan dampak pada pandangan hukum karya cipta, misal institusi besar seperti Association for Computing Machinary (ACM) mengubah lisensi penerbitan cetak agar sesuai dengan jaman media on line ini. Kecepatan perkembangan media online tidak lepas dari beberapa hal yang ditawarkan pada media on-line antara lain :\n\nMempublikasikan berita dapat dilakukan dengan sangat cepat. Misal seorang reporter menuliskan berita (misal via laptop ataupun PalmPilot) dan mengirimkan langsung melalui telefon selular, diedit oleh editor melalui perangkat komputernya setelah itu secara otomatis diformat dan segera dipublikasikan di media online tersebut. Dengan cara ini bahkan memungkinkan sang editor, dan reporter tidak harus ke kantor terlebih dahulu.\n\nMemberikan referensi silang, ke sumber berita lain yang berkaitan baik di dalam situs sendiri ataupun di situs lainnya. Dapat juga referensi pada data suara, video, dan gambar yang berkaitan. Kemampuan referensi silang ini tidak saja pada berita di situs internet, dapat juga dilakukan ekstraksi berita dan melakukan referensi silang dari acara TV dan radio (seperti salah satu proyek penelitian di Universitas Ryukoku - Jepang)\n\nLayanan pencarian arsip berita berita hari sebelumnya ataupun berita terkait dapat secara mudah. Bahkan pencarian dapat juga dilakukan pada bentuk data lain, seperti gambar, video dan suara.\n\nMemudahkan pekerjaan pengarsipan, karena semuanya bersifat data, maka penyimpan dapat dilakukan dengan tidak memakan tempat. Bahkan memindahkan pengarsipan dapat dilakukan secara mudah.\n\nMedia online dapat dioutputkan pada beberapa model presentasi secara otomatis, misal pada media web, kertas, CDROM atau bahkan seperti via speech synthesizer berita dapat dikirimkan dalam bentuk suara (misal untuk orang buta). Kemampuan ini menjadikan media online dapat menjangkau\n\nMedia online bukan saja merupakan bentuk online atau transformasi dari bentuk kertas ke situs Web, tetapi lebih dari itu. Kini media online telah bergeser menjadi suatu bentuk repositori online. Beberapa media online tidak menyertakan fasilitas pengarsipan atau cross reference, karena tujuannya hanyalah mengejar kecepatan berita (news alert). Kebutuhan pengarsipan ini menjadikan media online membutuhkan suatu format data yang harus berusia lama. Bukan saja datanya itu sendiri, tetapi perangkat pengakses (program) nya pun harus dapat bertahan lama. Bukan dalam arti program yang dipakai harus tetap sama hingga 20 tahun, akan tetapi bila pada 20 tahun mendatang haruslah ada cara untuk mengakses data tersebut.\n\nUsia data ini perlu dipertimbangkan, karena sering sekali orang mengabaikan pemilihan format data yang digunakan untuk menyimpan data tulisan. Permasalahan baru timbul ketika data telah tersimpan cukup lama dan ingin diolah ulang. Banyak format data ataupun program yang tak dapat digunakan lagi ketika waktu berjalan. Hal ini terjadi karena beberapa hal :\n\nFormat yang digunakan adalah proprietary dan tertutup maka dokumentasi tidak terbuka sehingga tak ada yang mengetahui lagi formatnya. Hal ini sulit bila ada kebutuhan baru yang harus melibatkan pengolahan format data lama.\n\nProgram pembaca format tersebut telah mengalami upgrade dan tak bisa membaca format sebelumnya. Hal ini sering terjadi pada beberapa aplikasi, ketika pengguna melakukan upgrade maka program tersebut mengalami kesulitan untuk menjaga kompatibilitas format data\n\nProgram yang dapat membaca data tersebut hanya tersedia pada sistem operasi yang lama, sedangkan versi yang di sistem operasi baru tak dapat membaca data yang lama.\n\nPerusahaan pembuat proram tersebut sudah bangkrut sehingga informasinya ikut terkubur.\n\nKemampuan menyimpan data dalam format yang nantinya akan dapat diolah lebih lanjut menjadi pertimbangan utama. Kini makin disadari kebutuhan agar isi media tersebut dapat disajikan dalam berbagai bentuk misal :\n\nPada browser grafik dengan koneksi cepat misal dengan Netscape, MS Explorer, Amaya, Opera. Pengguna ingin melihat semua jenis data, baik teks, image dan lain-lainnya.\n\nPada browser grafik dengan koneksi lambat (misal via modem), biasanya pengguna cenderung tidak ingin melihat data yang membutuhkan waktu lama untuk mendownload (misal video, suara, grafik).\n\nPada browser teks saja, misal menggunakan Lynx, W3M, pada kasus ini pengguna tertarik hanya dengan data teks. Frame pada dokumen web harus dihindari.\n\nPada browser mini pada peralatan Personal Digital Assistance (PDA) seperti Palm Pilot, Windows CE, YOPY. pengguna ingin melihat teks dan grafik tapi dalam format yang kompak.\n\nPara micro browser dalam peralatan yang mendukung Wireless Access Protocol (WAP) misal telfon cellular. Pada format ini maka data harus diformat ulang agar sesuai dengan format Wap Markup Language (WML).\n\nPada bentuk CDROM, pada bentuk ini teks, image dan lain-lainnya dapat dimasukkan. Format presentasi, fasilitas pencarian dan cross referensi harus dipertimbangkan.\n\nDicetak dengan beragam bentuk, misal : majalah, buku saku dan lain lain. Untuk itu sebaiknya format penyimpanan dapat dengan mudah dikonvert menjadi format ini dengan berdasarkan template dan style saja sehingga proses dapat dilakukan secara otomatis.\n\nDikirimkan ke pembaca dalam bentuk email, sehingga harus dikonversikan menjadi format yang paling efisien untuk dikirimkan dalam bentuk email.\n\nMedia online relatif bertujuan untuk menjangkau pembaca seluas mungkin. Sehingga tidaklah tepat bila mensyaratkan pengunjung untuk memakai suatu perangkat pengakses tertentu (termasuk software browser tertentu). Seringkali media online secara tidak sengaja membatasi pengunjung, misal hanya pengunjung dengan browser tertentu, atau hanya browser yang mendukung Java Applet yang dapat membaca dengan baik isi dari situs tersebut. Dengan cara ini maka secara tidak langsung hanyalah akan mengurangi jangkauan dari media online tersebut. Sedapat mungkin sistem online dapat mendeteksi perangkat pengakses dan menyesuaikan sajiannya secara otomatis sesuai dengan perangkat akses tersebut.\n\nKemampuan menyesuaikan pada beragam pengguna ini juga karena adanya tendensi pergeseran layanan media online menjadi suatu bentuk personalcast. Yaitu media online memberikan berita pada pengguna tertentu sesuai dengan kebutuhan pengguna tertentu tersebut. Sehingga tiap pembaca dapat melakukan kustomisasi sajian media online yang dibacanya tersebut. Misal pengguna tertentu menginginkan berita bursa pada halaman utama dan disajikan lengkap, sedangkan berita olah raga hanya disajikan judulnya saja. Sedangkan pengunjung yang lain menginginkan format sajian yang berbeda, hal ini dapat diatur secara bebas oleh masing-masing pengujung. Beberapa media online mulai menawarkan teknologi ini.\n\nProses layout dan pengeditan untuk beragam format tersebut tentunya tidak mungkin dilakukan secara manual. Sehingga dibutuhkan format data yang harus memisahkan antara deskripsi isi (content) dan deskripsi presentasi (layout). Bentuk format seperti wordprocessing ataupun Hyper Text Markup Language (HTML) biasa tidaklah memenuhi kebutuhan seperti ini. Hyper Text Markup Language (HTML) memang telah mengubah cara menspesifikasikan penampilan data di Internet, tapi ini saja tidak cukup.\n\nKebutuhan ragam layanan media online begitu cepat berkembang. Tahun lalu kebutuhan layanan ke WAP belumlah dipertimbangkan tetapi tahun ini hal tersebut sudah menjadi utama. Jumlah meningkatnya pengunjung juga menuntut dipenuhinya kebutuhan reliabilitas dan kontinyuitas sistem. Kini diharapkan sistem dapat secara dinamis bekerja dengan server yang paralel dan tersebar di berbagai lokasi. Sehingga faktor skalabilitas sistem perlu dipertimbangkan juga.\n\nSebagian besar media online mencoba menutupi kebutuhan perangkat lunaknya, dengan cara membeli perangkat lunak jadi. Akan tetapi melihat kebutuhan yang bergeser dengan cepat metoda beli jadi ini tentu ada keterbatasannya. Sehingga sulit sekali kalau perubahan kebutuhan selalu dicoba ditutupi dengan cara membeli software tambahan ataupun add-on atau plug-in. Terkadang timbul masalah kompatibilitas pula dengan sistem yang telah ada. Biaya pembelian perangkat lunak yang tidak tergolong murah itu. Pilihan lainnya adalah dengan memanfaatkan tim pengembang sendiri dan memilih platform yang tepat untuk melakukan pengembangan yang sesuai dengan kebutuhan baik saat ini ataupun masa mendatang. Manakah yang paling tepat ? Terserah pada pandangan anda terhadap media online tersebut."
+  },
+  "related": [
+    {
+      "id": "08dbd8b8-7171-4188-a7af-9d554816ea5c",
+      "title": "Jejak Samar Satgas PPKS Pada Jalan Terjal Perlindungan Mahasiswa di UAD",
+      "slug": "jejak-samar-satgas-ppks-pada-jalan-terjal-perlindungan-mahasiswa-di-uad",
+      "excerpt": "Peran Satuan Tugas (Satgas) Pencegahan dan Penanganan Kekerasan Seksual (PPKS) Universitas Ahmad Dahlan (UAD) belum sepenuhnya dirasakan oleh mahasiswa. Minimnya sebaran informasi membuat sebagian...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/whatsapp-image-2026-01-20-at-21-18-22-jpeg-mlqe474n.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/whatsapp-image-2026-01-20-at-21-18-22-jpeg-mlqe474n.webp",
+      "author": "Persma Poros",
+      "viewCount": 1,
+      "status": "PUBLISHED",
+      "publishedAt": "2026-01-20T23:03:01.000Z",
+      "createdAt": "2026-01-20T23:03:01.000Z",
+      "category": {
+        "id": "91419063-53db-4b46-be00-3203d725b184",
+        "name": "Berita",
+        "slug": "berita"
+      }
+    },
+    {
+      "id": "2773022f-0fe8-45e6-ad34-c36f98ea5d0d",
+      "title": "Menelusuri Aliran Air Minum di UAD: Antara Rencana Bisnis dan Hak Mahasiswa",
+      "slug": "menelusuri-aliran-air-minum-di-uad-antara-rencana-bisnis-dan-hak-mahasiswa-1",
+      "excerpt": "Sejumlah mahasiswa Universitas Ahmad Dahlan (UAD) menyampaikan beragam keluhan akibat minimnya fasilitas air minum isi ulang di gedung perkuliahan. Hingga saat ini UAD belum memiliki regulasi yang...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/whatsapp-image-2025-12-24-at-20-56-43-jpeg-mlqe4z8l.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/whatsapp-image-2025-12-24-at-20-56-43-jpeg-mlqe4z8l.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2025-12-24T14:39:36.000Z",
+      "createdAt": "2025-12-24T14:39:36.000Z",
+      "category": {
+        "id": "91419063-53db-4b46-be00-3203d725b184",
+        "name": "Berita",
+        "slug": "berita"
+      }
+    },
+    {
+      "id": "0da22fcf-4889-4c38-9207-b7387cf6a903",
+      "title": "Pameran Opening P2K UAD Dinilai Tak Efektif, Jumlah Pendaftar UKM Menurun",
+      "slug": "pameran-opening-p2k-uad-dinilai-tak-efektif-jumlah-pendaftar-ukm-menurun",
+      "excerpt": "Pelaksanaan Hari Unit Kegiatan Mahasiswa (UKM) pada Selasa (16/9) dalam rangkaian Program Pengenalan Kampus (P2K) Universitas Ahmad Dahlan (UAD) menuai sejumlah persoalan. Mulai dari konsep acara...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2025-10-07T13:00:52.000Z",
+      "createdAt": "2025-10-07T13:00:52.000Z",
+      "category": {
+        "id": "91419063-53db-4b46-be00-3203d725b184",
+        "name": "Berita",
+        "slug": "berita"
+      }
+    },
+    {
+      "id": "4eaaf148-4f4c-4a24-a824-e5eb7dbbd895",
+      "title": "Warga Kampung Laut Gelar Aksi Hari Tani, Tegaskan Perjuangan Tanah Leluhur",
+      "slug": "warga-kampung-laut-gelar-aksi-hari-tani-tegaskan-perjuangan-tanah-leluhur",
+      "excerpt": "Pada Hari Rabu, 24 September 2025 Puluhan warga Kampung Laut, Kabupaten Cilacap, menggelar aksi damai di Kantor Agraria dan Tata Ruang/Badan Pertanahan (ATR/BPN) setempat yang juga bertepatan dengan...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/salinan-dari-teks-paragraf-anda-1080-x-1350-piksel-mlqfyhm2.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/salinan-dari-teks-paragraf-anda-1080-x-1350-piksel-mlqfyhm2.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2025-10-01T14:34:22.000Z",
+      "createdAt": "2025-10-01T14:34:22.000Z",
+      "category": {
+        "id": "91419063-53db-4b46-be00-3203d725b184",
+        "name": "Berita",
+        "slug": "berita"
+      }
+    }
+  ]
+}

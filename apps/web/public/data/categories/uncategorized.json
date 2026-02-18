@@ -1,0 +1,239 @@
+{
+  "articles": [
+    {
+      "id": "e123776f-a723-4f0a-9320-4d69a4be3743",
+      "title": "ANTEXZ BARBER PANGKAS RAMBUT MODERN MASA KINI",
+      "slug": "antexz-barber-pangkas-rambut-modern-masa-kini",
+      "excerpt": "Barbershop adalah sebuah inovasi bisnis yang  bermula sebagai tukang cukur. Dahulu usaha ini dimulai dari tukang cukur keliling sampai berkembang menjadi usaha di lokasi tetap. Awalnya banyak tukang...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2023-03-27T12:20:14.000Z",
+      "createdAt": "2023-03-27T12:20:14.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "2e8c70c0-75bd-43b2-950d-e9a8ef99de73",
+      "title": "Peony Ecohouse: Realisasi Toko Ramah Lingkungan",
+      "slug": "peony-ecohouse-realisasi-toko-ramah-lingkungan",
+      "excerpt": "Gaya hidup ramah lingkungan menjadi hal yang hangat diperbincangkan di masyarakat dalam beberapa tahun terakhir. Gaya hidup ramah lingkungan sebenarnya apa, sih? Gaya hidup ramah lingkungan atau...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2022-03-27T03:31:38.000Z",
+      "createdAt": "2022-03-27T03:31:38.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "3c095c4e-8858-4b5f-8d67-7f107d37f60b",
+      "title": "Ketentuan Pengiriman Cerpen",
+      "slug": "ketentuan-pengiriman-cerpen",
+      "excerpt": "",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-03-15T14:52:58.000Z",
+      "createdAt": "2020-03-15T14:52:58.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "729725ff-519f-4a1b-b765-24d706f2da6f",
+      "title": "Kirim Resensi",
+      "slug": "kirim-resensi",
+      "excerpt": "",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-03-15T14:52:03.000Z",
+      "createdAt": "2020-03-15T14:52:03.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "4206e926-a691-44ce-8371-49d311ae596f",
+      "title": "Kirim Opini Anda",
+      "slug": "kirim-opini-anda",
+      "excerpt": "",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-03-15T14:51:14.000Z",
+      "createdAt": "2020-03-15T14:51:14.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "1e2766e5-243e-4217-aa42-b64ea9e1bb50",
+      "title": "Hadirkan Ayam Geprek, Safsut Milk n Meal Buka Lebih Awal",
+      "slug": "hadirkan-ayam-geprek-safsut-milk-n-meal-buka-lebih-awal",
+      "excerpt": "Ayam geprek sudah menjadi tren kuliner masyarakat Yogyakarta. Hal ini terlihat dari menjamurnya rumah makan maupun kafe yang menawarkan sajian ayam geprek. Safsut Milk n Meal sebagai tempat nongkrong...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-09-15T17:07:49.000Z",
+      "createdAt": "2019-09-15T17:07:49.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "e9456aef-3ca7-43f6-afa9-c0f3937a1a9d",
+      "title": "Mau yang murah dan kenyang ? Ke Tomboluwe aja",
+      "slug": "mau-yang-murah-dan-kenyang-ke-tomboluwe-aja",
+      "excerpt": "Kedai Tomboluwe kini hadir di Kota Yogyakarta, kian menambah deretan tempat kuliner yang bernuansa tradisional. Kedai ini berdiri sejak akhir tahun 2017 menyajikan makanan dengan harga yang relatif...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-05-10T15:34:05.000Z",
+      "createdAt": "2018-05-10T15:34:05.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "59d4635f-cb31-4e20-a83f-0606b835db90",
+      "title": "Karisma Salon : Dari Hobi jadi Rezeki",
+      "slug": "karisma-salon-dari-hobi-jadi-rezeki",
+      "excerpt": "Tidak dapat dipungkiri bahwa setiap orang selalu ingin berpenampilan menarik dan terlihat menawan, terutama di hari spesial mereka. Saat hari spesial tiba, jika tidak ingin direpotkan urusan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-09-08T14:18:20.000Z",
+      "createdAt": "2017-09-08T14:18:20.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "d4a78ed2-33e7-4d9e-9621-af2cfe5fd15b",
+      "title": "Ingin Tour dengan Nyaman? NN Holiday Tour and Travel Solusinya",
+      "slug": "ingin-tour-dengan-nyaman-nn-holiday-tour-and-travel-solusinya",
+      "excerpt": "Kenapa NN Holiday Tour and Travel solusinya? Karena NN Holiday Tour and Travel memang pilihan pas dan nyaman untuk tour anda. Selain kenyamanan, anda juga akan dimanjakan dengan segala...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-07-28T03:14:06.000Z",
+      "createdAt": "2017-07-28T03:14:06.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "41fbbe5b-56af-4eb4-8997-9c886fa0a7b3",
+      "title": "Bela Negara Bersama Resimen Mahasiswa",
+      "slug": "bela-negara-bersama-resimen-mahasiswa",
+      "excerpt": "Aktif berkegiatan di Resismen Mahasiswa (Menwa) adalah wujud nyata bela negara. Menwa UAD di kampus berfungsi sebagai stabilitator dan dinamistator. Tidak hanya sebagai wadah, Menwa juga menjadi...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-09-15T05:52:18.000Z",
+      "createdAt": "2016-09-15T05:52:18.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "0d22284f-ce16-401a-8d8f-dd5386cb385c",
+      "title": "Menikmati Michael Buble dalam Martabak Buble",
+      "slug": "menikmati-michael-buble-dalam-martabak-buble",
+      "excerpt": "Mendengar kata Buble ingatan orang kebanyakan akan merujuk pada penyanyi Jazz asal Kanada, Michael Buble.  Penyanyi yang terkenal lewat lagu Home nya inilah yang menginspirasi lima anak muda pemilik...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-09-08T05:18:54.000Z",
+      "createdAt": "2016-09-08T05:18:54.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "8b9e2d68-ea6d-4a1e-8a9f-fb6385403433",
+      "title": "Sayangi Kakimu Bersama Fifteen Sport",
+      "slug": "sayangi-kakimu-bersama-fifteen-sport",
+      "excerpt": "Bagi pemain sepak bola, kaki merupakan aset yang sangat berharga, terutama untuk menunjang performa di lapangan. Apabila kaki cedera tentu akan mengganggu performa pemain. Untuk melindungi kaki,...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-09-04T02:15:02.000Z",
+      "createdAt": "2016-09-04T02:15:02.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    },
+    {
+      "id": "83bd00d9-fa6e-47ea-8ef9-a34d657826df",
+      "title": "Berolahraga, Berorganisasi dan Berprestasi Bersama Tae Kwon Do",
+      "slug": "berolahraga-berorganisasi-dan-berprestasi-bersama-tae-kwon-do",
+      "excerpt": "Untuk melindungi diri dari tindak kejahatan dibutuhkan usaha yang tidak sedikit. Tidak cukup bermodalkan doa dan bantuan orang lain. Tae Kwon Do adalah salah satu cara yang tepat untuk melindungi...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-08-31T14:51:04.000Z",
+      "createdAt": "2016-08-31T14:51:04.000Z",
+      "category": {
+        "id": "58949e07-4f0e-47d3-a68b-67a0377623f4",
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    }
+  ],
+  "total": 13
+}

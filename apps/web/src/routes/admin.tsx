@@ -10,11 +10,17 @@ interface RouterContext {
 export const Route = createFileRoute('/admin')({
   component: AdminLayout,
   beforeLoad: async ({ context, location }) => {
+    // Admin tidak tersedia di static/Cloudflare Pages build
+    // @ts-ignore - Vite env
+    if (import.meta.env.VITE_DATA_SOURCE === 'static') {
+      throw redirect({ to: '/' })
+    }
+
     // Skip auth check if already on login page to prevent infinite loop
     if (location.pathname === '/admin/login') {
       return
     }
-    
+
     // Check auth - will redirect to login if not authenticated
     try {
       await (context as RouterContext).queryClient.fetchQuery({

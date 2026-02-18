@@ -1,0 +1,95 @@
+{
+  "article": {
+    "id": "7bf6e18b-2412-4ec3-b3d4-26a71dfc0133",
+    "title": "Gara-Gara Jangkrik Jadi Duta IPTEK",
+    "slug": "gara-gara-jangkrik-jadi-duta-iptek-1",
+    "excerpt": "Selama ini jangkrik kerap dianggap sebagai binatang pengganggu atau bagi sebagian orang binatang yang menjijikan. Namun di tangan mahasiswa Tekhnik Industri Universitas Ahmad Dahlan ini, jangkrik...",
+    "coverImageUrl": null,
+    "thumbnailUrl": null,
+    "author": "Persma Poros",
+    "viewCount": 0,
+    "status": "PUBLISHED",
+    "publishedAt": "2015-10-30T06:35:36.000Z",
+    "createdAt": "2015-10-30T06:35:36.000Z",
+    "category": {
+      "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+      "name": "Berita Kampus",
+      "slug": "berita-kampus"
+    },
+    "content": "Selama ini jangkrik kerap dianggap sebagai binatang pengganggu atau bagi sebagian orang binatang yang menjijikan. Namun di tangan mahasiswa Tekhnik Industri Universitas Ahmad Dahlan ini, jangkrik berubah menjadi berkah.\n\r\n        Aswindra Aji Kurniawan, mahasiswa semester akhir, belakangan ini disibukkan oleh rutinitas barunya sebagai peternak jangkrik. Berawal dari hobinya berternak, pria kelahiran 1993 ini menemukan Aplikasi Perancangan Pendampingan Peternak Jangkrik. Aplikasi ini dapat memudahkan para peternak untuk mengetahui jadwal reproduksi jangkrik melalui metode Android Cloud to Device Messaging.\n\r\n        Berikut petikan wawancara reporter Poros dengan Aswin, sapaan akrabnya. Script wawancara ini mengalami proses edit tanpa mengurangi substansi pesan yang ingin disampaikan.\n\r\nKenapa beternak jangkrik?\n\r\n       Dari kecil sebenarnya saya hobi beternak. Dulu saya memelihara ayam dan kambing. Namun setelah membaca sebuah buku tentang ternak jangkrik, ternyata binatang ini lebih menjanjikan karena di Yogyakarta selama ini kebutuhan akan jangkrik disuplai dari Jawa Timur. Sedangkan kebutuhan jangkrik terus bertambah seiring dengan bertambahnya pecinta burung di Yogyakarta.\n\r\n       Berdasarkan survei saya di pasar, pengepul maupun toko pakan burung bisa menjual 150 kilogram jangkrik per harinya. Maka dari itu saya menekuni dan mengembangkan ternak jangkrik agar bisa memenuhi kebutuhan pasar.\n\r\n      Selama ini jangkrik jadi santapan burung ocehan seperti burung Murai, Kacer, Jalak dan Sirtu. Selain untuk pakan burung, jangkrik sebenarnya dapat dimanfaatkan untuk bahan pembuatan kosmetik dan biskuit. Di beberapa negara maju jangkrik telah diolah menjadi kudapan yang bernutrisi.\n\r\nBagaimana Kondisi ternak anda sekarang?\n\r\n       Ternak ini sudah saya geluti selama tiga tahun sejak tahun 2013. Sekarang saya sudah memiliki 32 kotak kandang, saya letakan di belakang rumah. Kalau dulu saya letakan di dapur.\n\r\nOmset perbulannya berapa?\n\r\n        Kalau penghasilan kotornya sudah mencapai 10 juta per bulan.\n\r\nDarimana inspirasi pembuatan aplikasi ini?\n\r\n       Saya terinspirasi dari seringnya para peternak yang gagal dalam memberi pakan dan memanen jangkrik. Oleh karena itu aplikasi ini hadir untuk meminimalisir kerugian yang dialami peternak. Untuk pembuatanya saya garap mulai dari bulan Januari dan sekarang masih tahap penyempurnaan. Saya merancang aplikasi ini untuk membantu para peternak jangkrik pemula yang mayoritas masih bingung dalam beternak.\n\r\n        Daripada harus mendampingi para peternak lain secara door to door maka saya merancang aplikasi ini. Melalui aplikasi ini para peternak pemula lebih mudah dalam melakukan proses ternak.\n\r\nBagaimana cara kerja Aplikasi ini?\n\r\n           Aplikasi ini bekerja dengan cara memberi peringatan kepada server terkait jadwal memberi pakan, perawatan dan panen jangkrik. Dalam beternak hewan ini ada beberapa hal yang harus diperhatikan, dan jika lalai maka panen kemungkinan besar akan gagal.\n\r\n      Untuk tahap kerjanya, pertama, peternak mengatur jadwal telur menetas melalui web ketika membeli telur. Setelah itu data akan masuk ke server lalu server mengirimkan pemberitahuan otomatis melalui perangkat Android yang dimiliki peternak. Peternak akan mendapatkan pemberitahuan mulai dari telur menetas, takaran pakan jangkrik usia muda, usia tua hingga panen. Jadi para peternak tidak harus setiap waktu mengawasi ternak. Cukup dengan satu kali di saat proses penjadwalan, setelah itu peternak akan mendapatkan pemberitahuan melaui Mobile yang terinstal Android. Dengan cara ini para peternak akan lebih mudah dan cepat merawat jangkrik, sehingga hasil panen bisa maksimal dan memenuhi target.\n\r\n        Sejauh ini aplikasinya masih dalam proses penyempurnaan. Jadi masih belum bisa digunakan oleh khalayak ramai. Saat ini aplikasi tersebut masih digunakan sebatas untuk kelompok ternak saya. Namun dalam waktu dekat aplikasi ini akan segera disempurnakan kemudian disediakan di Play store. Aplikasi ini juga saya digunakan sebagai tugas akhir kuliah.\n\r\nPernakah aplikasi ini dilombakan?\n\r\n         Iya, aplikasi ini saya lombakan dalam Kompetisi Anugrah IPTEK (ilmu pengetahuan dan teknologi) DIY. Alhamdulillah, aplikasi ini meraih juara 1 dalam kategori Masyarakat Umum Individu. Berkat prestasi tersebut saya diundang ke Jakarta dalam acara memperingati Hari Kebangkitan Teknologi Nasional ke-20. Disana saya bertemu dengan Pak Habibie.\n\r\n       Setiap peserta yang hadir dalam acara tersebut merupakan perwakilan dari masing-masing provinsi, dan saya mewakili Yogyakarta. Dalam acara tersebut saya dinobatkan sebagai Duta IPTEK untuk Provinsi DI. Yogyakarta.\n\r\nBagaimana harapan kedepan untuk aplikasi ini?\n\r\n     Harapan untuk aplikasi, saat ini aplikasinya dalam tahap penyempurnaan. Semoga dalam waktu dekat selesai dan bisa diunduh di Play Store agar peternak jangkrik seluruh Indonesia bisa menggunakannya.\n\r\n      Saya berharap kedepanya semakin banyak orang yang tertarik menggeluti ternak ini. Karena saat ini jumlah peternak terutama di Yogyakarta masih minim. Saya juga siap menerima calon peternak yang mau bergabung karena saya masih belum bisa memenuhi kebutuhan pasar per hari. [Bintang]"
+  },
+  "related": [
+    {
+      "id": "2a617a5b-be95-4b95-a7e1-9f51ca1d52c9",
+      "title": "Simpang Siur Kenaikan Biaya Ujian Ulang, Mana yang Benar?",
+      "slug": "simpang-siur-kenaikan-biaya-ujian-ulang-mana-yang-benar",
+      "excerpt": "Surat Keputusan (SK) Rektor Universitas Ahmad Dahlan (UAD) Nomor 280 Tahun 2024 yang beredar belakangan ini menuai protes dari mahasiswa. Pasalnya, SK Rektor tersebut berisi kenaikan biaya ujian...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/img-20250124-wa0020-jpg-mlqg9qx6.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/img-20250124-wa0020-jpg-mlqg9qx6.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2025-01-24T15:47:00.000Z",
+      "createdAt": "2025-01-24T15:47:00.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "f25589d2-21a0-4a10-aedc-13133ffce49e",
+      "title": "Angkat Tema Ekologi, Produksi Sampah P2K UAD Justru Meningkat",
+      "slug": "angkat-tema-ekologi-produksi-sampah-p2k-uad-justru-meningkat",
+      "excerpt": "Program Pengenalan Kampus (P2K) Universitas Ahmad Dahlan (UAD) 2024 menghasilkan total 560 Kg sampah selama pelaksanaanya. Meski mengusung tema “Kolaborasi Dahlan Muda Merawat Semesta” serta...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/sampah-2-png-mlqghfk7.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/sampah-2-png-mlqghfk7.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2024-09-22T05:40:23.000Z",
+      "createdAt": "2024-09-22T05:40:23.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "d49ff805-e2a8-425d-ab5a-1caa4147471c",
+      "title": "Gema Pakti Berjuang untuk Regenerasi Penghayat Kepercayaan",
+      "slug": "gema-pakti-berjuang-untuk-regenerasi-penghayat-kepercayaan",
+      "excerpt": "Ketua Perempuan Penghayat Kepercayaan (Puan Hayati) DIY, Sri Endang Sulistyowati merasa prihatin dengan kondisi regenerasi penghayat kepercayaan. Padahal berbagai paket kebijakan untuk menjamin hak warga penghayat kepercayaan sudah ada.\r\n\r\nMasih ada banyak persoalan, misalnya belum semua warga penghayat mengubah administrasi kependudukan. Hal ini berakibat pada hak-hak sipil warga penghayat, seperti hak pendidikan, pernikahan, dan pemakaman menjadi terhambat.",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2022-07-04T14:28:29.000Z",
+      "createdAt": "2022-07-04T14:28:29.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "78e593e5-16d6-44c2-bd31-deb200cd91eb",
+      "title": "Dapur Umum Buruh Gendong Perempuan: Solidaritas Ketahanan Pangan dan Kerja Kemanusiaan.",
+      "slug": "dapur-umum-buruh-gendong-perempuan-solidaritas-ketahanan-pangan-dan-kerja-kemanusiaan",
+      "excerpt": "Gerakan Rakyat Bantu Rakyat mencuat sekaligus mengudara di Indonesia seiring pagebluk yang tak kunjung usai. Gerakan arus bawah ini menjadi tren baru yang mengusung semangat saling bantu rakyat...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-11-01T12:11:21.000Z",
+      "createdAt": "2021-11-01T12:11:21.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    }
+  ]
+}

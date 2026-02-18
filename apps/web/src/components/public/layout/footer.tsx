@@ -1,9 +1,9 @@
 import { Link } from '@tanstack/react-router'
-import { usePublicCategories } from '../../../hooks/use-public-categories'
+import { ALL_CATEGORIES } from '../../../config/categories'
 
 export function Footer() {
-  const { data: categoriesData } = usePublicCategories()
-  const categories = categoriesData?.categories || []
+  // Use static categories config instead of API call
+  const categories = ALL_CATEGORIES
 
   return (
     <footer className="bg-neutral-50 dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-800">
@@ -17,7 +17,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
-              Portal Berita POROS - Sumber informasi terpercaya seputar Jogja, kampus, dan nasional.
+              Pers Mahasiswa UAD POROS - Sumber informasi terpercaya seputar Jogja, kampus, dan nasional.
             </p>
           </div>
 
@@ -29,7 +29,7 @@ export function Footer() {
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
               {categories.map(cat => (
                 <Link
-                  key={cat.id}
+                  key={cat.slug}
                   to="/kategori/$slug"
                   params={{ slug: cat.slug }}
                   className="text-sm text-neutral-600 dark:text-neutral-400 hover:text-poros-600 dark:hover:text-poros-400 transition-colors"
@@ -46,7 +46,7 @@ export function Footer() {
               Kontak
             </h3>
             <div className="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
-              <p>Email: redaksi@poros.id</p>
+              <p>Email: redaksiporosonline@gmail.com</p>
               <p>Jogja, Indonesia</p>
             </div>
           </div>

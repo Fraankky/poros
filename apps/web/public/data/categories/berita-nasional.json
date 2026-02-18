@@ -1,0 +1,563 @@
+{
+  "articles": [
+    {
+      "id": "a45fb1ff-c228-42d6-9167-771696ad3921",
+      "title": "Payung BPJS Ketenagakerjaan yang Belum Tersentuh Pekerja Lepas",
+      "slug": "payung-bpjs-ketenagakerjaan-yang-belum-tersentuh-pekerja-lepas",
+      "excerpt": "Pemerintah lewat Badan Penyelenggara Jaminan Sosial (BPJS) Ketenagakerjaan menargetkan perluasan jaminan sosial bagi seluruh pekerja. Meski begitu, di Yogyakarta banyak pekerja lepas, mulai dari...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/whatsapp-image-2025-11-30-at-20-14-03-1-jpeg-mlqe6eig.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/whatsapp-image-2025-11-30-at-20-14-03-1-jpeg-mlqe6eig.webp",
+      "author": "Persma Poros",
+      "viewCount": 1,
+      "status": "PUBLISHED",
+      "publishedAt": "2025-11-30T13:16:55.000Z",
+      "createdAt": "2025-11-30T13:16:55.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "3bc4b611-26dc-462b-a7c6-b36f9bb0a434",
+      "title": "Paradoks Institusional: UAD Memilih Bungkam Terhadap Dinamika Nasional",
+      "slug": "paradoks-institusional-uad-memilih-bungkam-terhadap-dinamika-nasional",
+      "excerpt": "Aksi demonstrasi tengah terjadi di berbagai daerah sedari Kamis, 18 Agustus hingga awal September 2025. Hal itu, disebabkan imbas memuncaknya amarah rakyat terhadap kebijakan pemerintahan...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/whatsapp-image-2025-09-03-at-20-29-37-89968e5d-jpg-mlqg5hss.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/whatsapp-image-2025-09-03-at-20-29-37-89968e5d-jpg-mlqg5hss.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2025-09-03T12:28:41.000Z",
+      "createdAt": "2025-09-03T12:28:41.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "569e7afa-474e-48c6-8472-766fdf1b3a14",
+      "title": "UAD, Jangan Setengah Hati Bicara Demokrasi!",
+      "slug": "uad-jangan-setengah-hati-bicara-demokrasi",
+      "excerpt": "Gelombang kritik dari kampus terhadap pemerintahan Joko Widodo perihal langkah politiknya dalam pemilu semakin membesar. Sejumlah kampus mulai meminta Jokowi kembali pada tatanan demokrasi yang...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/lektur-20240211-194908-0000-png-mlqgwbpe.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/lektur-20240211-194908-0000-png-mlqgwbpe.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2024-02-11T13:15:16.000Z",
+      "createdAt": "2024-02-11T13:15:16.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "6b8ea143-bc12-418a-bd1c-a44cc854f322",
+      "title": "AIK di Waktu Libur, Ribuan Mahasiswa Menyatakan Keberatannya",
+      "slug": "aik-di-waktu-libur-ribuan-mahasiswa-menyatakan-keberatannya",
+      "excerpt": "Pelaksanaan mata kuliah sertifikasi Al Islam dan Kemuhammadiyahan (AIK) di waktu libur menuai polemik di kalangan mahasiswa Universitas Ahmad Dahlan (UAD). Kurangnya sosialisasi yang komprehensif...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2023-03-07T04:53:30.000Z",
+      "createdAt": "2023-03-07T04:53:30.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "a39625a5-63a5-48f8-804f-2edca1f83c7a",
+      "title": "Kekerasan di Wadas: Polisi yang Bebal",
+      "slug": "kekerasan-di-wadas-polisi-yang-bebal",
+      "excerpt": "Kekerasan yang dilakukan kepada warga Wadas beberapa hari kemarin menunjukkan polisi memang bebal. Kalau Anda buka Kamus Besar Bahasa Indonesia atau KBBI arti bebal adalah sukar mengerti atau tidak...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-04-28T14:28:04.000Z",
+      "createdAt": "2021-04-28T14:28:04.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "33e0542a-d748-4793-aac3-f05549ca1557",
+      "title": "Melihat Kinerja BEMU dan DPMU Dari Kacamata Partai dan Organisasi Mahasiswa",
+      "slug": "melihat-kinerja-bemu-dan-dpmu-dari-kacamata-partai-dan-organisasi-mahasiswa",
+      "excerpt": "Selama satu periode menjabat, Badan Eksekutif Mahasiswa Universitas (BEMU) dan Dewan Perwakilan Mahasiswa Universitas (DPMU) mendapat evaluasi dari partai dan Organisasi Mahasiswa (ormawa) di ...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-01-02T14:00:36.000Z",
+      "createdAt": "2021-01-02T14:00:36.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "44d6d14f-a760-430d-a756-8dff6c8fdcdd",
+      "title": "Peran BEMU dan DPMU terhadap Mahasiswa",
+      "slug": "peran-bemu-dan-dpmu-terhadap-mahasiswa",
+      "excerpt": "Berdasarkan Undang-Undang (UU) nomor 3 Tahun 2019 tentang pemerintahan BEMU dan BEMF, BEMU merupakan lembaga eksekutif mahasiswa di tingkat universitas. Fungsi BEMU adalah melakukan koordinasi dengan seluruh komponen KBM UAD. Sedangkan menurut UU Nomor 2 Tahun 2019 tentang DPMU dan DPMF Pasal 3, DPMU merupakan lembaga perwakilan mahasiswa yang berkedudukan sebagai lembaga legislatif mahasiswa. DPMU bertugas melaksanakan pengawasan terhadap kegiatan BEMU. Artinya, setiap kegiatan yang diselenggarakan BEMU termasuk rancangan proposal juga akan diperiksa oleh DPMU.",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-12-24T11:12:07.000Z",
+      "createdAt": "2020-12-24T11:12:07.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "83efafd0-ad3c-4555-8596-e49381125e37",
+      "title": "#JogjaMemanggil Menangis Dua Kali: Omnibus Law dan Gas Air Mata",
+      "slug": "jogjamemanggil-menangis-dua-kali-omnibus-law-dan-gas-air-mata",
+      "excerpt": "Sejatinya, saya sudah berulang kali mengikuti aksi demonstrasi di Yogyakarta, namun aksi #JogjaMemanggil untuk membatalkan UU Cipta Kerja kali ini (8/10) adalah yang paling berkesan lagi mencekam....",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Wanda",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-10-11T04:15:19.000Z",
+      "createdAt": "2020-10-11T04:15:19.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "7ec84abf-e164-4e03-882b-d6df691d0c7f",
+      "title": "Tak Perlu Kompromi, Mari Terus Aksi hingga UU Ciptaker Dibatalkan",
+      "slug": "tak-perlu-kompromi-mari-terus-aksi-hingga-uu-ciptaker-dibatalkan",
+      "excerpt": "Sungguh kasihan Dewan Perwakilan Rakyat Republik Indonesia (DPR RI)  dan pemerintah ini, sudah kebut-kebut mengesahkan Omnibus Law RUU Cipta Kerja (Ciptaker), berharap dengan begitu tidak akan ada...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-10-07T13:55:15.000Z",
+      "createdAt": "2020-10-07T13:55:15.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "1cfd06d8-4639-42d4-ba66-e173b1abe8dc",
+      "title": "Pentingnya Perlindungan Identitas Korban Kekerasan Seksual dalam Pemberitaan Media",
+      "slug": "pentingnya-perlindungan-identitas-korban-kekerasan-seksual-dalam-pemberitaan-media",
+      "excerpt": "“Ada sebagian media yang sudah menerapkan prinsip-prinsip perlindungan identitas korban. Justru ada media yang telah mengedepankan edukasi terhadap masyarakat,” ungkap Lidwina Inge Nurtjahyo dalam...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Nurul",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-07-07T14:17:41.000Z",
+      "createdAt": "2020-07-07T14:17:41.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "45fe8fe5-477d-4412-918c-5869daf59502",
+      "title": "Pernyataan Sikap dan Tuntutan Amputasi KBM UAD",
+      "slug": "pernyataan-sikap-dan-tuntutan-amputasi-kbm-uad",
+      "excerpt": "Mahasiswa Universitas Ahmad Dahlan (UAD)\nyang tergabung dalam Aliansi Mahasiswa Peduli Tamansari (Amputasi) KBM UAD\nmenyuarakan lima tuntutan yang ditujukan kepada Pemerintahan Jokowi,...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-12-17T13:05:14.000Z",
+      "createdAt": "2019-12-17T13:05:14.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "faf40ddf-181b-429c-8451-0bd69863974d",
+      "title": "#KamiTakPercayaLidahPenguasa!",
+      "slug": "kamitakpercayalidahpenguasa",
+      "excerpt": "Pernyataan Mahfud MD terkait tak adanya pelanggaran HAM yang dilakukan rezim Jokowi tentu melukai hati kami, hati keluarga Randi, mahasiswa yang mesti meregang nyawa karena terjangan peluru saat aksi...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-12-14T09:11:43.000Z",
+      "createdAt": "2019-12-14T09:11:43.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "48a7ac55-95fe-4f3c-b903-d0cfa106450b",
+      "title": "Gelar Wicara Milad Ke-22 FSBK, Upaya Memperkenalkan Kembali Budaya melalui Sosial Media",
+      "slug": "gelar-wicara-milad-ke-22-fsbk-upaya-memperkenalkan-kembali-budaya-melalui-sosial-media",
+      "excerpt": "Milad ke-22 Fakultas Sastra, Budaya dan\nKomunikasi (FSBK) Universitas Ahmad Dahlan (UAD) resmi dibuka dengan acara gelar\nwicara (8/12). Rangkaian kegiatan yang dilaksanakan pada tahun ini...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-12-08T15:50:25.000Z",
+      "createdAt": "2019-12-08T15:50:25.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "9ff7df37-eddf-41ef-a041-cc693d566986",
+      "title": "KBM FAI Permasalahkan Pemindahan Kelas, Dekanat Akan Koordinasi dengan Simeru",
+      "slug": "kbm-fai-permasalahkan-pemindahan-kelas-dekanat-akan-koordinasi-dengan-simeru",
+      "excerpt": "Dewan Perwakilan Mahasiswa (DPM) Fakultas Agama Islam (FAI) dan Keluarga Besar Mahasiswa (KBM) FAI melakukan audiensi dengan Dekan, Kepala Program Studi (Kaprodi) yang ada di FAI, dan para dosen...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-11-25T12:37:17.000Z",
+      "createdAt": "2019-11-25T12:37:17.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "6d6d10bd-378e-4fba-9ced-35b4bf2a0d0e",
+      "title": "Akreditasi Belum Keluar, Mahasiswa Ilkom Tidak Bisa Wisuda Periode Ini",
+      "slug": "akreditasi-belum-keluar-mahasiswa-ilkom-tidak-bisa-wisuda-periode-ini",
+      "excerpt": "Wisuda mahasiswa Univeritas Ahmad Dahlan (UAD) tahun akademik 2019/2020 yang akan diselenggarakan tanggal 16 November 2019 tidak bisa diikuti mahasiswa program studi (prodi) Ilmu Komunikasi (Ilkom)....",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-11-15T09:26:43.000Z",
+      "createdAt": "2019-11-15T09:26:43.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "952fe588-23bb-4821-a943-2278d8296136",
+      "title": "Usai Lantik Menteri, BEM UAD Lanjut Garap Amazing Orange",
+      "slug": "usai-lantik-menteri-bem-uad-lanjut-garap-amazing-orange",
+      "excerpt": "Sabtu, 2\nNovember 2019, Presiden Mahasiswa Universitas Ahmad Dahlan (UAD) Terpilih 2019,\nRivandi telah resmi melantik sekretaris kabinet dan menteri-menterinya di Aula Islamic Center UAD. Acara...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-11-05T15:17:31.000Z",
+      "createdAt": "2019-11-05T15:17:31.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "38a02e77-219f-4474-975c-b585dbd7e297",
+      "title": "Rivandy-Siti Resmi Menjabat Presma dan Wapresma UAD hingga 2020",
+      "slug": "rivandy-siti-resmi-menjabat-presma-dan-wapresma-uad-hingga-2020",
+      "excerpt": "Sabtu, 19 Oktober 2019, Presiden Mahasiswa (Presma) dan Wakil Presma Universitas Ahmad Dahlan (UAD) terpilih, yaitu Rivandy Harahap dan Siti Aminah telah resmi dilantik. Acara pelantikan yang...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-10-22T12:14:13.000Z",
+      "createdAt": "2019-10-22T12:14:13.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "d5cb720c-6032-40b0-ad37-7c75a20b0c24",
+      "title": "Rektor Baru UAD Muchlas akan Fokus pada Peningkatan SDM",
+      "slug": "rektor-baru-uad-muchlas-akan-fokus-pada-peningkatan-sdm",
+      "excerpt": "Minggu, 20 Oktober 2019 dalam rangka menjaga dan membangun suasana harmoni keluarga besar Universitas Ahmad Dahlan (UAD), Biro Kemahasiswaan dan Alumni (Bimawa) bekerja sama dengan Unit Kegiatan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-10-21T05:26:03.000Z",
+      "createdAt": "2019-10-21T05:26:03.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "401baf34-bea0-455f-8057-f0f7bfe723ff",
+      "title": "Hari Pertama P2K, Telekonferensi Penuh Kendala",
+      "slug": "hari-pertama-p2k-telekonferensi-penuh-kendala",
+      "excerpt": "Senin, 02 September 2019 pukul 08:00 Rektor Universitas Ahmad Dahlan (UAD), Kasiyarno dengan resmi membuka Program Pengenalan Kampus (P2K) di hadapan perwakilan mahasiswa di ampiterium gedung utama...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-09-04T05:06:24.000Z",
+      "createdAt": "2019-09-04T05:06:24.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "8ffd0a72-8e29-4602-95a7-a01433d31b85",
+      "title": "Pimpinan Sidang Hilang, Kongres KBM UAD Molor",
+      "slug": "pimpinan-sidang-hilang-kongres-kbm-uad-molor",
+      "excerpt": "Rabu 7 Agustus 2019, Pukul 20.15 WIB Kongres Keluarga Besar Mahasiswa (KBM) Universitas Ahmad Dahlan (UAD) yang diselenggarakan di Wisma Kaliurang kembali dibuka setelah molor delapan jam dari...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-08-08T11:28:46.000Z",
+      "createdAt": "2019-08-08T11:28:46.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "25ab8b41-7ce6-4743-87d4-dbbc771c4961",
+      "title": "Berbagai Persiapan Jelang Pesta Demokrasi UAD",
+      "slug": "berbagai-persiapan-jelang-pesta-demokrasi-uad",
+      "excerpt": "Pesta demokrasi yang akan digelar pada 20 Juli di Universitas Ahmad Dahlan sudah memasuki H-1. Komisi Pemilihan Umum Mahasiswa (KPUM) sampai sekarang masih melakukan berbagai persiapan untuk...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-07-19T12:21:49.000Z",
+      "createdAt": "2019-07-19T12:21:49.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "824f2cbf-c8b6-4c41-b484-6444ccdc55e7",
+      "title": "Film Kinjeng Wesi: Bentuk Penolakan Bandara Kulon Progo",
+      "slug": "film-kinjeng-wesi-bentuk-penolakan-bandara-kulon-progo",
+      "excerpt": "Film Kinjeng Wesi diputar perdana pada 18 November 2017 di Jogja Galeri. Film karya Yogi Zul Fadhli selaku Kepala Departemen Advokasi Lembaga Bantuan Hukum (LBH) Yogyakarta tersebut berlatar belakang...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-11-19T12:03:16.000Z",
+      "createdAt": "2017-11-19T12:03:16.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "3febdc21-87c3-421e-aefc-f0035adbebf6",
+      "title": "Biotilik : Upaya Sederhana Pantau Kualitas dan Kuantitas Air",
+      "slug": "biotilik-upaya-sederhana-pantau-kualitas-dan-kuantitas-air",
+      "excerpt": "Sabtu pagi, 30 September 2017, Forum Komunikasi Winogo Asri (FKWA) bekerja sama dengan Wahana Lingkungan Hidup Indonesia (WALHI) Jogja mengadakan konferensi pers tentang pemantauan kualitas air...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-09-30T09:40:55.000Z",
+      "createdAt": "2017-09-30T09:40:55.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "55babbe2-7174-419c-901e-747a331cc4f1",
+      "title": "Aksi Damai Aliansi Mahasiswa Yogyakarta, Hadirkan Teatrikal",
+      "slug": "aksi-damai-aliansi-mahasiswa-yogyakarta-hadirkan-teatrikal",
+      "excerpt": "Yogyakarta, (POROS). Setelah melakukan dua kali aksi yang berujung bentrok, (20/11) Aliansi Mahasiswa se-DIY menggelar aksi damai di Pertigaan Kampus UIN Sunan Kalijaga Jl.Laksda Adisucipto dengan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2014-11-20T09:35:44.000Z",
+      "createdAt": "2014-11-20T09:35:44.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "e676f932-75f3-4c95-9ad8-c12c8a532623",
+      "title": "Memper(ingat)i Perjuangan Para Pahlawan",
+      "slug": "memperingati-perjuangan-para-pahlawan",
+      "excerpt": "Yogyakarta, (POROS). Sejak Pemerintah menetapkan 10 November sebagai  Hari Pahlawan, beberapa daerah di Indonesia  ramai memperingati hari tersebut. Minggu (10/11) di sudut- sudut kota tampak warga...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2014-11-14T02:20:01.000Z",
+      "createdAt": "2014-11-14T02:20:01.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "44cbbd8f-44c6-4f4f-ae61-500fdc359b76",
+      "title": "Sumpah Pemuda Rahim Bangsa Indonesia",
+      "slug": "sumpah-pemuda-rahim-bangsa-indonesia",
+      "excerpt": "Tak berlebihan jika Sumpah Pemuda disebut sebagai rahimnya bangsa Indonesia. Sebab dalam Sumpah Pemuda inilah, pertama kali nama Indonesia disepakati. Sumpah yang diikrarkan pada 28 Oktober 1928...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2014-01-03T02:52:51.000Z",
+      "createdAt": "2014-01-03T02:52:51.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "42e607f8-b6b6-4f79-9bde-97e8a19192cd",
+      "title": "Tangsi, Pantai Merah Muda",
+      "slug": "tangsi-pantai-merah-muda",
+      "excerpt": "oleh: Basufi\n(Magang Poros Tahun 2012-2014)\n(Doc Google)\nMembahas keindahan wisata Indonesia memang tak ada matinya. Terdiri dari jejeran pulau dari sabang sampai merauke. Dan setiap pulau selalu...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2013-05-05T22:35:18.000Z",
+      "createdAt": "2013-05-05T22:35:18.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "8e0be156-822b-4ca9-b3b0-518f7f47c1c6",
+      "title": "Fakultas Sastra Menghilang, FASBUK pun Datang",
+      "slug": "fakultas-sastra-menghilang-fasbuk-pun-datang",
+      "excerpt": "Yogyakarta, (POROS) – Awalnya F Sas (Fakultas Sastra) direncanakan bakal berganti nama menjadi Fasbud (Fakultas Sastra dan Budaya). Namun dengan hadirnya Ilkom (Ilmu Komunikasi) yang belum...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2012-10-18T03:02:19.000Z",
+      "createdAt": "2012-10-18T03:02:19.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "769f86f9-684d-4e4d-8a17-93ff5d48595e",
+      "title": "Sang Penjual Atribut OSPEK",
+      "slug": "sang-penjual-atribut-ospek",
+      "excerpt": "Oleh: Irestyana",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2012-09-06T07:09:05.000Z",
+      "createdAt": "2012-09-06T07:09:05.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "071dd610-6f36-49ed-85de-c85ddb20743e",
+      "title": "Dicari Wakil Mahasiswa!!!",
+      "slug": "dicari-wakil-mahasiswa",
+      "excerpt": "Oleh: Zeffi (layouter 2012-2013)",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2012-07-12T10:55:11.000Z",
+      "createdAt": "2012-07-12T10:55:11.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    },
+    {
+      "id": "860ae4bf-0f90-467d-b7a5-2ac6d81a933f",
+      "title": "UAD Masih Tanpa  Presiden Mahasiswa",
+      "slug": "uad-masih-tanpa-presiden-mahasiswa",
+      "excerpt": "Oleh: Rika F R (PU. 2012-2013)",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2012-07-12T10:48:03.000Z",
+      "createdAt": "2012-07-12T10:48:03.000Z",
+      "category": {
+        "id": "4645845d-8dad-433b-a010-72b013f40769",
+        "name": "Berita Nasional",
+        "slug": "berita-nasional"
+      }
+    }
+  ],
+  "total": 31
+}

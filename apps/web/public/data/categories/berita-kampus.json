@@ -1,0 +1,779 @@
+{
+  "articles": [
+    {
+      "id": "2a617a5b-be95-4b95-a7e1-9f51ca1d52c9",
+      "title": "Simpang Siur Kenaikan Biaya Ujian Ulang, Mana yang Benar?",
+      "slug": "simpang-siur-kenaikan-biaya-ujian-ulang-mana-yang-benar",
+      "excerpt": "Surat Keputusan (SK) Rektor Universitas Ahmad Dahlan (UAD) Nomor 280 Tahun 2024 yang beredar belakangan ini menuai protes dari mahasiswa. Pasalnya, SK Rektor tersebut berisi kenaikan biaya ujian...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/img-20250124-wa0020-jpg-mlqg9qx6.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/img-20250124-wa0020-jpg-mlqg9qx6.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2025-01-24T15:47:00.000Z",
+      "createdAt": "2025-01-24T15:47:00.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "f25589d2-21a0-4a10-aedc-13133ffce49e",
+      "title": "Angkat Tema Ekologi, Produksi Sampah P2K UAD Justru Meningkat",
+      "slug": "angkat-tema-ekologi-produksi-sampah-p2k-uad-justru-meningkat",
+      "excerpt": "Program Pengenalan Kampus (P2K) Universitas Ahmad Dahlan (UAD) 2024 menghasilkan total 560 Kg sampah selama pelaksanaanya. Meski mengusung tema “Kolaborasi Dahlan Muda Merawat Semesta” serta...",
+      "coverImageUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/covers/sampah-2-png-mlqghfk7.webp",
+      "thumbnailUrl": "https://pub-63ee546789b9400997e6e915956cd885.r2.dev/thumbs/sampah-2-png-mlqghfk7.webp",
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2024-09-22T05:40:23.000Z",
+      "createdAt": "2024-09-22T05:40:23.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "d49ff805-e2a8-425d-ab5a-1caa4147471c",
+      "title": "Gema Pakti Berjuang untuk Regenerasi Penghayat Kepercayaan",
+      "slug": "gema-pakti-berjuang-untuk-regenerasi-penghayat-kepercayaan",
+      "excerpt": "Ketua Perempuan Penghayat Kepercayaan (Puan Hayati) DIY, Sri Endang Sulistyowati merasa prihatin dengan kondisi regenerasi penghayat kepercayaan. Padahal berbagai paket kebijakan untuk menjamin hak warga penghayat kepercayaan sudah ada.\r\n\r\nMasih ada banyak persoalan, misalnya belum semua warga penghayat mengubah administrasi kependudukan. Hal ini berakibat pada hak-hak sipil warga penghayat, seperti hak pendidikan, pernikahan, dan pemakaman menjadi terhambat.",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2022-07-04T14:28:29.000Z",
+      "createdAt": "2022-07-04T14:28:29.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "78e593e5-16d6-44c2-bd31-deb200cd91eb",
+      "title": "Dapur Umum Buruh Gendong Perempuan: Solidaritas Ketahanan Pangan dan Kerja Kemanusiaan.",
+      "slug": "dapur-umum-buruh-gendong-perempuan-solidaritas-ketahanan-pangan-dan-kerja-kemanusiaan",
+      "excerpt": "Gerakan Rakyat Bantu Rakyat mencuat sekaligus mengudara di Indonesia seiring pagebluk yang tak kunjung usai. Gerakan arus bawah ini menjadi tren baru yang mengusung semangat saling bantu rakyat...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-11-01T12:11:21.000Z",
+      "createdAt": "2021-11-01T12:11:21.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "99131711-7323-4153-b05e-6cddc1941b4d",
+      "title": "Problematika Pengamen Badut di Tengah Covid-19",
+      "slug": "problematika-pengamen-badut-di-tengah-covid-19",
+      "excerpt": "“Sebelum aku dipanggil oleh Tuhan, permintaanku hanya ingin ketemu dengan anak-anakku,” ujar Supardi.\n\r\n29 Oktober 2020, barisan motor berhenti di perempatan lampu apill jalan lingkar Selatan jalan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-09-26T12:23:07.000Z",
+      "createdAt": "2021-09-26T12:23:07.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "3b48472e-7c8e-4ef3-933a-3c37198085a5",
+      "title": "Antara Petani dan Mangrove: Sepasang Sandal Kehidupan",
+      "slug": "antara-petani-dan-mangrove-sepasang-sandal-kehidupan",
+      "excerpt": "Desas-desus penambangan pasir liar di muara Sungai Opak sudah terdengar sejak tahun 2000-an. Aktivitas penambangan pasir liar ditolak dan dikecam keberadaannya oleh warga Kelurahan Srigading. Sebab,...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-09-04T09:14:56.000Z",
+      "createdAt": "2021-09-04T09:14:56.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "15a0dee7-33cf-4977-9cd6-a3ef9790a7e2",
+      "title": "Perjuangkanlah Hakmu, Kau Kulawan",
+      "slug": "perjuangkanlah-hakmu-kau-kulawan",
+      "excerpt": "Melihat suasana gaduh, Julian selaku pendamping hukum warga dari Lembaga Bantuan Hukum (LBH) Yogyakarta berjalan ke depan, dengan dibantu orang-orang di sekitar Julian bersama-sama menenangkan warga Wadas dan menyuruh warga kembali duduk dan berzikir. Apa yang diupayakan pun berhasil, warga kembali tenang dan berzikir. Terlihat begitu jelas dari posisi saya berdiri, ketika Julian mencoba menenangkan warga, salah satu polisi tak berseragam dinasmemantik api kerusuhan dengan menendang betis Julian. Sontak Julian membalikan tubunya, “Kamu kok nendang-nendang sih!” protes Julian. Namun, polisi tak berseragam itu mengelak.Melihat itu, beberapa warga Wadas yang di dekat Julian turut memprotes polisi, “Udah kelihatan! Udah kelihatan!” teriak orang-orang membela Julian.",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-04-27T02:58:04.000Z",
+      "createdAt": "2021-04-27T02:58:04.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "0d4056df-26e0-4535-a869-a5740e0149b0",
+      "title": "Lahan Terbatas, Pengadaan RTH Kota Belum Tuntas",
+      "slug": "lahan-terbatas-pengadaan-rth-kota-belum-tuntas",
+      "excerpt": "RTH Publik Gunungketur yang kini berumur dua tahun adalah hasil dari upaya masyarakat RW 2 Gunungketur yang sadar akan hak atas lingkungan yang sehat. Kini anak-anak bisa bermain dengan leluasa di lokasi tersebut. Tempat itu pun digunakan masyarakat untuk berkumpul di hari-hari tertentu.",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-01-31T15:26:07.000Z",
+      "createdAt": "2021-01-31T15:26:07.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "d32f76c9-2e76-49e5-b230-99c45ab05d97",
+      "title": "Hidup di Rumah, Hidup di Jalan",
+      "slug": "hidup-di-rumah-hidup-di-jalan",
+      "excerpt": "Tidak seperti anak lainnya, sejak muda Tomi menghabiskan banyak waktu di jalanan Bantul dan Kota Yogyakarta. Ia terbiasa terjaga hingga subuh dan hanya tidur beberapa jam. Sebelum pukul sembilan pagi, ia harus berangkat bekerja lagi. Sambil berangkat, ia mengantar ibunya ke tempat biasa ibunya bekerja.",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-01-26T15:27:31.000Z",
+      "createdAt": "2021-01-26T15:27:31.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "b1778594-d4c9-455a-a265-d4374c733c2e",
+      "title": "Keluarga dan Negara dalam Kasus Kriminal Anak",
+      "slug": "keluarga-dan-negara-dalam-kasus-kriminal-anak",
+      "excerpt": "YOGYAKARTA, POROS - “Anak jadi kurir, kurir obat (narkoba-red). Itu, kan, mereka sebagai korban, maka dia harus mendapatkan perhatian dan perlindungan,” ujar Sari Murti, Ketua Lembaga Perlindungan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-01-25T15:43:21.000Z",
+      "createdAt": "2021-01-25T15:43:21.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "0e45aa89-cf1f-46dd-8aa1-3cd3d5b789c5",
+      "title": "Perundungan Masih Menjadi Wabah di Dunia Pendidikan",
+      "slug": "perundungan-masih-menjadi-wabah-di-dunia-pendidikan",
+      "excerpt": "Sejak duduk di bangku kelas VII, Nadia kerap dipanggil dengan sebutan helm oleh temantemanya. Ia tidak menyukai panggilan itu, dan mengaku sakit hati, kesal, juga gampang marah melihat kelakuan temannya. Ketika dipanggil dengan sebutan helm, sesekali ia menangis bahkan trauma karena merasa tertekan",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Usan",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2021-01-24T14:14:16.000Z",
+      "createdAt": "2021-01-24T14:14:16.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "89cbd43e-b447-432d-af3a-ad98c3258360",
+      "title": "Jalan Terjal Pembangunan Kantor GKJ Klasis Gunungkidul",
+      "slug": "jalan-terjal-pembangunan-kantor-gkj-klasis-gunungkidul",
+      "excerpt": "Rumput liar tumbuh subur di tanah calon Kantor Gereja Kristen Jawa (GKJ) Klasis Gunungkidul. Pohon Jati dan perdu menambah rimbun lahan itu, batu-batu berserakan tak menentu. Tanah seluas 1.300 m2 di...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-12-09T07:07:04.000Z",
+      "createdAt": "2020-12-09T07:07:04.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "0480084b-80de-4045-89d1-1c55f02fc4d1",
+      "title": "Kematian Seorang Waria",
+      "slug": "kematian-seorang-waria",
+      "excerpt": "WARIA itu dituduh mencuri dompet dan telepon genggam, pada 4 April 2020 dini hari, di tempat parkir truk di Cilincing, pelabuhan Tanjung Priok, di utara metropolitan Jakarta. Si empunya dompet,...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2020-04-14T12:36:24.000Z",
+      "createdAt": "2020-04-14T12:36:24.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "e277d11b-9a83-4984-b247-421e6d312a77",
+      "title": "Kepanasan hingga Kehujanan, Massa Aksi Tuntut Masalah HAM Dituntaskan",
+      "slug": "kepanasan-hingga-kehujanan-massa-aksi-tuntut-masalah-ham-dituntaskan",
+      "excerpt": "Persoalan pelanggaran Hak Asasi Manusia (HAM) menjadi pekerjaan rumah serius bagi negara-negara di dunia. Sampai saat ini, pelanggaran HAM belum bisa dirampungkan, khususon di Indonesia. Sebagai...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-12-11T15:31:28.000Z",
+      "createdAt": "2019-12-11T15:31:28.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "d45470fd-b2fd-4153-b0ec-0db15870eb63",
+      "title": "Mahasiswa Membela Rakyat Dihadang Aparat!",
+      "slug": "mahasiswa-membela-rakyat-dihadang-aparat",
+      "excerpt": "Sejak 23 September 2019, puluhan mahasiswa dari berbagai wilayah terus berkumpul di Senayan untuk mengaspirasikan keresahannya kepada DPR RI.  Namun, mahasiswa justru terus dihalang-halangi aparat...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-10-01T13:01:03.000Z",
+      "createdAt": "2019-10-01T13:01:03.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "64b880fd-83e2-40a4-8ab2-cfa19ce78d76",
+      "title": "Herlan Roesandi: Dari Manggung di Kursi Hingga di Kafe-kafe",
+      "slug": "herlan-roesandi-dari-manggung-di-kursi-hingga-di-kafe-kafe",
+      "excerpt": "Warung kopi itu masih lengang saat siang hari. Pria berambut lurus sebahu datang menghampiri dengan senyum mengembang. Dari segi penampilan, barangkali orang tidak akan sulit menebak jika pria ini...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-09-26T06:20:06.000Z",
+      "createdAt": "2019-09-26T06:20:06.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "b90ed846-b586-434f-b61c-e670123ff587",
+      "title": "Pameran UKM Kurang Maksimal",
+      "slug": "pameran-ukm-kurang-maksimal",
+      "excerpt": "Selasa, 03 September 2019 Pameran Unit Kegiatan Mahasiswa (UKM) dilaksanakan di parkiran selatan Pesantren Universitas Ahmad Dahlan (Persada) Kampus IV dalam rangka Program Pengenalan Kampus (P2K)...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-09-04T13:19:42.000Z",
+      "createdAt": "2019-09-04T13:19:42.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "55bf762f-f592-445f-ada8-d3f1c1e627b5",
+      "title": "Demi Ikuti P2K, Mahasiswa PAI Wates Rela Menginap di Kampus",
+      "slug": "demi-ikuti-p2k-mahasiswa-pai-wates-rela-menginap-di-kampus",
+      "excerpt": "Demi mengikuti Program Pengenalan Kampus (P2K) yang dimulai sejak 2 september 2019 Sejumlah mahasiswa baru rela menginap di Kampus V UAD. Tak terkecuali mahasiswa baru (maba) Pendidikan Agama Islam...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-09-03T16:57:29.000Z",
+      "createdAt": "2019-09-03T16:57:29.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "9188ba00-64b9-421d-9eb5-98c04e28e444",
+      "title": "Mekanisme Dispensasi UAD Tidak Jelas, Mahasiswa Terbengkalai",
+      "slug": "mekanisme-dispensasi-uad-tidak-jelas-mahasiswa-terbengkalai",
+      "excerpt": "26 Agustus 2019, Mahasiswa Universitas Ahmad Dahlan (UAD) menggelar mimbar bebas di depan kampus I terkait masalah dispensansi uang kuliah mahasiswa.\r\n\r\nDirga S. selaku Ketua Dewan Perwakilan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2019-08-27T05:51:03.000Z",
+      "createdAt": "2019-08-27T05:51:03.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "5d583644-d67e-425a-81b4-6b9e292b6aca",
+      "title": "Bikin Becak Pustaka, Sutopo : Sekali Membaca Tetap Membaca!",
+      "slug": "bikin-becak-pustaka-sutopo-sekali-membaca-tetap-membaca",
+      "excerpt": "Seperti hari-hari biasa, kendaraan selalu ramai berlalu lalang melintasi Jalan Bumijo, Jetis, Kota Yogyakarta. Terlihat ada beberapa becak yang berjejer parkir di pinggir trotoar. Sepintas...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-11-16T13:41:29.000Z",
+      "createdAt": "2018-11-16T13:41:29.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "5e783623-7c1b-4c2c-87e5-ccd3818da4d4",
+      "title": "Mencintai Kebudayaan Jawa Melalui Alunan Gamelan Gendhing Bahana",
+      "slug": "mencintai-kebudayaan-jawa-melalui-alunan-gamelan-gendhing-bahana",
+      "excerpt": "Mendengar kebudayaan Indonesia pasti yang terlintas dibenak kita adalah keanekaragamannya. Tiap daerah dari Sabang sampai Merauke memiliki budayanya masing-masing. Salah satu bentuk kebudayaan ini...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Pipit",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-09-19T12:02:29.000Z",
+      "createdAt": "2018-09-19T12:02:29.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "f278f2ca-3517-4b7e-9faa-35188abe281f",
+      "title": "Ika Suciwati : Mawapres Harus Tahan Banting",
+      "slug": "ika-suciwati-mawapres-harus-tahan-banting",
+      "excerpt": "Ketika mengetikkan Ika Suciwati di situs pencarian Google maka akan muncul beberapa artikel mengenai dirinya yang memenangi berbagai perlombaan. Mahasiswi semester VI jurusan Pendidikan Bahasa...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-06-01T09:50:02.000Z",
+      "createdAt": "2018-06-01T09:50:02.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "7e2ecd80-b082-45cb-9bd7-002943b2095d",
+      "title": "Bangun Budaya Baca, Perpustakaan UAD Beri Penghargaan Mahasiswa",
+      "slug": "bangun-budaya-baca-perpustakaan-uad-beri-penghargaan-mahasiswa",
+      "excerpt": "Dalam kuliah umum yang diselenggarakan Program Studi (Prodi) Pendidikan Agama Islam (PAI) di Gedung Kaca Pemda, Kulon Progo, 28 Desember 2017, Hilman Latief selaku pemateri sempat menyingggung...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2018-01-02T05:58:21.000Z",
+      "createdAt": "2018-01-02T05:58:21.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "f3c1f81c-1d2e-48c0-9ae8-8c9bdc817dec",
+      "title": "Rahmat, Si Wirausaha Muda dari Magelang",
+      "slug": "rahmat-si-wirausaha-muda-dari-magelang",
+      "excerpt": "“Bahwa seorang wirausaha itu lebih kepada minat dan keinginan kuatnya untuk dikembangkan serta cinta kepada (dunia-red) wirausaha daripada sekedar ikut-ikutan mengembangkan wirausaha yang ada tapi...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-12-05T12:03:57.000Z",
+      "createdAt": "2017-12-05T12:03:57.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "f6be2d96-3ae4-459c-a598-ade10b30e48f",
+      "title": "Sudi, Tak Sudi Lahan Pertaniannya Dirusak",
+      "slug": "sudi-tak-sudi-lahan-pertaniannya-dirusak",
+      "excerpt": "Empat lahan warga yang tergabung dalam PWPP-KP rusak diterjang mesin bego. Klaim Pakualaman Ground (PAG) menjadi alasan eksekusi, dan Analisis Dampak Lingkungan (AMDAL) tentang pembangunan bandara...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-08-30T20:11:09.000Z",
+      "createdAt": "2017-08-30T20:11:09.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "d8bc5004-8b16-4833-a39a-df5d97084050",
+      "title": "Rektor UAD : Selama Ini Tidak Ada Pendidikan Yang Murah",
+      "slug": "rektor-uad-selama-ini-tidak-ada-pendidikan-yang-murah-1",
+      "excerpt": "“Dari 3 juta pelajar yang ingin masuk ke Perguruan Tinggi, Indonesia hanya mampu menampung 30 % Mahasiswa, maka kalian harus bersyukur masuk UAD,” ungkap Kasiyarno, Rektor UAD, dalam sambutanya di...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Ilham Lazuardi",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2017-08-15T15:36:56.000Z",
+      "createdAt": "2017-08-15T15:36:56.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "0370a59b-9bcd-4cc9-98c0-73753b0a43b7",
+      "title": "Juara I Peksiminas, Wika: Semua Bermula dari Hobi",
+      "slug": "juara-i-peksiminas-wika-semua-bermula-dari-hobi",
+      "excerpt": "Di sebuah pulau bernama Tidore, Maluku Utara, telah lahir seorang anak perempuan. Namanya Wika G. Wulandari. Ia tumbuh di keluarga yang gemar membaca. Setiap bulan Wika selalu diajak sang Ayah...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-11-04T07:07:12.000Z",
+      "createdAt": "2016-11-04T07:07:12.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "0d65020e-88c9-496b-a046-85bc6f55279b",
+      "title": "Memberatkan Maba, Atribut Ribet Ditiadakan",
+      "slug": "memberatkan-maba-atribut-ribet-ditiadakan",
+      "excerpt": "Panitia pusat (Panpus) Program Pengenalan Kampus (P2K) mendapat arahan langsung dari Panitia Dosen untuk meniadakan atribut yang “aneh-aneh” dalam P2K tahun ini. Alasannya adalah agar tidak...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Mutiara Putri",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-09-02T05:56:54.000Z",
+      "createdAt": "2016-09-02T05:56:54.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "d7149d6a-98d1-4fbd-92ed-f8de9a6c68f2",
+      "title": "Ratusan Maba UAD Tidak Diikutkan P2K",
+      "slug": "ratusan-maba-uad-tidak-diikutkan-p2k",
+      "excerpt": "Ratusan mahasiswa baru (maba) 2016 terpaksa tidak mengikuti Program Pengenalan Kampus (P2K) yang dimulai 29 Agustus hingga 3 September.\n\r\n     Pada tanggal 24 Agustus panitia P2K melalui webnya...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Nur Rahmawati",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-08-30T21:14:02.000Z",
+      "createdAt": "2016-08-30T21:14:02.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "7ca14f2b-bf6f-4512-b848-e43502a85794",
+      "title": "P2K UAD 2016 Usung Tema Bela Negara",
+      "slug": "p2k-uad-2016-usung-tema-bela-negara",
+      "excerpt": "Program Pengenalan Kampus (P2K) Universitas Ahmad Dahlan (UAD) 2016 mengusung tema “Bersama UAD Kita Tingkatkan Integritas Moral dan Intelektual dalam Bela Negara Menuju Kemandirian Bangsa.”\n\r\n    ...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Nur Rahmawati",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-08-20T05:00:33.000Z",
+      "createdAt": "2016-08-20T05:00:33.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "d4b7d7cf-df3b-4e8c-bdf9-209d3a806ee4",
+      "title": "UAD Perlu Berbenah",
+      "slug": "uad-perlu-berbenah",
+      "excerpt": "Dimulai dari perencanaan yang tarik ulur sejak empat tahun lalu.  Fakultas  Kedokteran Universitas Ahmad Dahlan (FK UAD) mulai menampakkan kesiapannya satu tahun belakangan ini. Saat ini laboratorium...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-04-21T19:20:39.000Z",
+      "createdAt": "2016-04-21T19:20:39.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "be208fde-3328-4edd-b56b-58823f317b78",
+      "title": "SKPI Hanya Sebagai Poin Tambahan",
+      "slug": "skpi-hanya-sebagai-poin-tambahan",
+      "excerpt": "Melalui surat keputusan SKPI/IFS1/2015/012345, Universitas Ahmad Dahlan (UAD) menganjurkan setiap mahasiswa untuk memiliki SKPI (Surat Keterangan Pendamping Ijazah). Hal ini disampaikan dalam...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Muhayyan",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-03-15T23:15:26.000Z",
+      "createdAt": "2016-03-15T23:15:26.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "dee4adf4-adc4-4716-ac48-4281deaf8459",
+      "title": "Warek III UAD: Kita Tidak Alergi Kritik",
+      "slug": "warek-iii-uad-kita-tidak-alergi-kritik",
+      "excerpt": "Persmaporos.com – (5/3) Abdul Fadlil, Wakil Rektor III UAD (Universitas Ahmad Dahlan) berkesempatan memberikan sambutan dalam acara pelantikan pengurus baru Unit Kegiatan Mahasiswa Pers Mahasiswa...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Fara Dewi",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2016-03-06T01:45:14.000Z",
+      "createdAt": "2016-03-06T01:45:14.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "f4d205ed-b626-4cb1-a75f-7dd02bdf7e29",
+      "title": "Rektor UAD Tidak Hadir, Audiensi Ditunda",
+      "slug": "rektor-uad-tidak-hadir-audiensi-ditunda",
+      "excerpt": "Hingga pukul 17.30 WIB aksi yang digelar oleh KBM UAD belum mebuahkan kesepakatan. Hal ini dikarenakan audiensi bersama beberapa pihak kampus di tunda akibat ketidakhadiran Kasiyarno selaku rektor...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2015-11-25T13:17:25.000Z",
+      "createdAt": "2015-11-25T13:17:25.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "eb293e59-433b-4439-a8ea-937453d0db1a",
+      "title": "Kesepakatan Tidak Diindahkan, KBM UAD Gelar Aksi",
+      "slug": "kesepakatan-tidak-diindahkan-kbm-uad-gelar-aksi",
+      "excerpt": "Persmaporos.com – Rabu (25/11) Keluarga Besar Mahasiswa (KBM) UAD menggelar aksi damai di depan kampus I. Dalam aksi ini KBM menuntut tiga hal, yaitu tiadakan P2K susulan, hapuskan kuliah malam dan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2015-11-25T11:38:51.000Z",
+      "createdAt": "2015-11-25T11:38:51.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "38999c2b-c7c1-49b4-86e5-3ca86b9fdb00",
+      "title": "Jabatan Rektor Diperpanjang, Mahasiswa Menuntut",
+      "slug": "jabatan-rektor-diperpanjang-mahasiswa-menuntut-1",
+      "excerpt": "Perpanjangan jabatan Rektor Kasiyarno hingga 2017 menuai banyak tanggapan dari mahasiswa. Pasalnya mereka menilai masih banyak hal yang harus diselesaikan Kasiyarno dalam kepemimpinannya dua tahun...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2015-11-22T10:25:24.000Z",
+      "createdAt": "2015-11-22T10:25:24.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "6819bf92-1929-47d8-8872-80a544fc6ee1",
+      "title": "Niat Promosikan Kampus, UAD Kelola Orion",
+      "slug": "niat-promosikan-kampus-uad-kelola-orion",
+      "excerpt": "“UAD sendiri punya Unit Kegiatan Mahasiswa (UKM) bola kenapa tidak dikelola?,” tanya Pramono\n\r\n       Poros – Tahun ajaran 2015/2016 ada yang berbeda dari Universitas Ahmad Dahlan (UAD) Yogyakarta....",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2015-11-16T01:47:38.000Z",
+      "createdAt": "2015-11-16T01:47:38.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "7bf6e18b-2412-4ec3-b3d4-26a71dfc0133",
+      "title": "Gara-Gara Jangkrik Jadi Duta IPTEK",
+      "slug": "gara-gara-jangkrik-jadi-duta-iptek-1",
+      "excerpt": "Selama ini jangkrik kerap dianggap sebagai binatang pengganggu atau bagi sebagian orang binatang yang menjijikan. Namun di tangan mahasiswa Tekhnik Industri Universitas Ahmad Dahlan ini, jangkrik...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2015-10-30T06:35:36.000Z",
+      "createdAt": "2015-10-30T06:35:36.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "4e743637-df19-4a4a-9403-11ea89c997a7",
+      "title": "Suara Dari Dalam Pasar Sentul",
+      "slug": "suara-dari-dalam-pasar-sentul",
+      "excerpt": "[caption id=\"attachment_756\" align=\"aligncenter\" width=\"300\"] (26/11) Wagiyem (kiri) dan pedagang lainnya sedang menunggu pembeli ditengah sepinya pasar.[/caption]",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2014-11-28T20:11:55.000Z",
+      "createdAt": "2014-11-28T20:11:55.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "542b957e-90fe-4bb4-a004-990a8a520587",
+      "title": "Sebuah Sejarah Kecil Yang Hilang",
+      "slug": "sebuah-sejarah-kecil-yang-hilang",
+      "excerpt": "Semua umat Islam di dunia apalagi di Indonesia tahu siapa Imam Al-Bukhari. Seorang perawi hadist Rasullah karena jasanya yang meneliti hadist Rasul berdasarkan rawi, sanad dan matan sehingga kita...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2012-10-18T02:53:36.000Z",
+      "createdAt": "2012-10-18T02:53:36.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "eb063486-7eae-4f3c-9324-b05677a842d7",
+      "title": "Diatas Kursi Roda,  Ku Hantarkan Berita",
+      "slug": "diatas-kursi-roda-ku-hantarkan-berita",
+      "excerpt": "Kelumpuhan bukan berarti lumpuh pula semangat hidup, gabungan kata ini mungkin cukup sudah untuk menggambarkan pahit manisnya perjuangan hidup seorang laki-laki paruh baya yang mempunyai kegigihan...",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2012-10-18T02:49:47.000Z",
+      "createdAt": "2012-10-18T02:49:47.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "b4b9282c-7043-4985-9a5f-55d75d9d8b41",
+      "title": "Stempel Lebih Menarik Dibanding Pameran",
+      "slug": "stempel-lebih-menarik-dibanding-pameran",
+      "excerpt": "Oleh: Zeffy (Layouter 2012-2013)",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2012-09-06T07:03:16.000Z",
+      "createdAt": "2012-09-06T07:03:16.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    },
+    {
+      "id": "c0c2855a-7c71-4a25-9ed5-01be5865446a",
+      "title": "Kesetiaan Seorang Tua dengan Dapurnya",
+      "slug": "kesetiaan-seorang-tua-dengan-dapurnya",
+      "excerpt": "Oleh: Rohmadie (Koord. Jaringan 2011-2012)",
+      "coverImageUrl": null,
+      "thumbnailUrl": null,
+      "author": "Persma Poros",
+      "viewCount": 0,
+      "status": "PUBLISHED",
+      "publishedAt": "2012-07-12T09:37:19.000Z",
+      "createdAt": "2012-07-12T09:37:19.000Z",
+      "category": {
+        "id": "3c90c987-ff40-49a8-9e38-cc3e13e43b0e",
+        "name": "Berita Kampus",
+        "slug": "berita-kampus"
+      }
+    }
+  ],
+  "total": 43
+}

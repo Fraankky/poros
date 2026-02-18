@@ -3,16 +3,16 @@ import { HeroFeaturedCard } from './hero-featured-card'
 import { HeroSideCard } from './hero-side-card'
 
 interface HeroSectionProps {
-  featured: Article
+  carouselArticles: Article[]
   sideArticles: Article[]
 }
 
-export function HeroSection({ featured, sideArticles }: HeroSectionProps) {
+export function HeroSection({ carouselArticles, sideArticles }: HeroSectionProps) {
   return (
     <div className="grid grid-cols-1 gap-4 md:grid-cols-12">
-      {/* Featured Article - Left Column (7/12) */}
-      <div className="md:col-span-7">
-        <HeroFeaturedCard article={featured} priority />
+      {/* Carousel - Left Column (7/12) */}
+      <div className="md:col-span-7 h-full">
+        <HeroFeaturedCard articles={carouselArticles} priority />
       </div>
 
       {/* Side Articles - Right Column (5/12) */}

@@ -9,6 +9,8 @@
     "build": "pnpm -r build",
     "build:web": "pnpm --filter web build",
     "build:api": "pnpm --filter api build",
+    "build:static": "VITE_DATA_SOURCE=static pnpm build:web",
+    "generate:static": "pnpm --filter api run generate:static",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio",

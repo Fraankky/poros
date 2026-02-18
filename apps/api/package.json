@@ -6,6 +6,7 @@
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
     "build": "echo 'No build needed for Express'",
+    "generate:static": "node --experimental-vm-modules scripts/generate-static.js",
     "lint": "eslint src"
   },
   "dependencies": {
