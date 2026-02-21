@@ -11,9 +11,9 @@ interface TwoColLayoutProps {
   totalCount?: number
 }
 
-/** Layout 2×2 grid — dipakai untuk Resensi */
+/** Layout 3×1 grid — dipakai untuk Resensi */
 export function TwoColLayout({ articles, categoryName, categorySlug, totalCount }: TwoColLayoutProps) {
-  const hasMore = totalCount ? totalCount > articles.length : articles.length >= 4
+  const hasMore = totalCount ? totalCount > articles.length : articles.length >= 3
 
   return (
     <div className="py-8 md:py-12">
@@ -34,8 +34,8 @@ export function TwoColLayout({ articles, categoryName, categorySlug, totalCount 
       </div>
 
       {articles.length > 0 ? (
-        <div className="grid grid-cols-2 gap-4 md:gap-6">
-          {articles.slice(0, 4).map((article) => (
+        <div className="grid grid-cols-3 gap-3 md:gap-4">
+          {articles.slice(0, 3).map((article) => (
             <RectangularCard key={article.id} article={article} />
           ))}
         </div>

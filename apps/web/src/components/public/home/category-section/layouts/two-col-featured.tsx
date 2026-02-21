@@ -17,7 +17,7 @@ export function TwoColFeaturedLayout({ articles, categoryName, categorySlug, tot
   const hasMore = totalCount ? totalCount > articles.length : articles.length >= 6
 
   return (
-    <div className="py-6 md:py-12">
+    <div className="py-8 md:py-12">
       <div className="mb-6 flex items-center justify-between">
         <h2 className="text-sm font-bold uppercase tracking-wider text-neutral-500">
           {categoryName}

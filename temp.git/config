@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = /home/faris/projects/poros/web-poros/.
+[remote "new"]
+	url = https://github.com/web-poros/poros.git
+	fetch = +refs/heads/*:refs/remotes/new/*

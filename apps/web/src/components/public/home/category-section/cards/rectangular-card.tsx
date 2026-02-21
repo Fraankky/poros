@@ -1,7 +1,7 @@
 import { Link } from '@tanstack/react-router'
 import { Article } from '../../../../../hooks/use-public-articles'
 
-/** Rectangular card 16/9 — dipakai di TwoColLayout (Resensi 2×2 grid) */
+/** Rectangular card 16/9 — dipakai di TwoColLayout (Resensi 3×3 grid) */
 export function RectangularCard({ article }: { article: Article }) {
   return (
     <Link
@@ -23,7 +23,7 @@ export function RectangularCard({ article }: { article: Article }) {
           </div>
         )}
       </div>
-      <h3 className="line-clamp-2 text-sm font-semibold leading-snug text-neutral-900 transition-colors group-hover:text-poros-600 dark:text-white md:text-base">
+      <h3 className="line-clamp-2 text-sm font-semibold leading-snug text-neutral-900 transition-colors group-hover:text-poros-600 dark:text-white">
         {article.title}
       </h3>
       <p className="mt-1 text-xs text-neutral-500">

@@ -7,9 +7,10 @@ export function FeaturedCard({ article }: { article: Article }) {
     <Link
       to="/artikel/$slug"
       params={{ slug: article.slug }}
-      className="group relative block overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800"
+      className="group relative block h-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800"
     >
-      <div className="aspect-[4/3] lg:aspect-[3/4] lg:min-h-[400px]">
+      {/* Hapus aspect ratio, ganti jadi h-full */}
+      <div className="h-full min-h-[400px]">
         {article.coverImageUrl ? (
           <img
             src={article.coverImageUrl}
