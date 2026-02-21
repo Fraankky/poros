@@ -51,6 +51,7 @@ export function HeroFeaturedCard({ articles, priority = false }: HeroFeaturedCar
                 src={article.coverImageUrl}
                 alt={article.title}
                 loading={priority && i === 0 ? 'eager' : 'lazy'}
+                crossOrigin="anonymous"
                 className="h-full w-full object-cover"
               />
             ) : (

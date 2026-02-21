@@ -56,6 +56,7 @@ export function ArticleImage({
         className={`w-full h-full object-cover transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
         loading={priority ? 'eager' : 'lazy'}
         fetchPriority={priority ? 'high' : 'auto'}
+        crossOrigin="anonymous"
         onError={() => {
           setHasError(true)
           setIsLoading(false)
