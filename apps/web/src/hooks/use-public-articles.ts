@@ -144,11 +144,12 @@ export function useRelatedArticles(slug: string) {
 }
 
 // GET /api/public/search
-export function usePublicSearch(query: string, page = 1, limit = 12) {
+export function usePublicSearch(query: string | undefined, page = 1, limit = 12) {
+  const safeQuery = query || ''
   return useQuery<SearchResponse>({
-    queryKey: ['public', 'search', { query, page, limit }],
-    queryFn: () => fetchSearch(query, page, limit),
-    enabled: query.trim().length > 0,
+    queryKey: ['public', 'search', { query: safeQuery, page, limit }],
+    queryFn: () => fetchSearch(safeQuery, page, limit),
+    enabled: safeQuery.trim().length > 0,
   })
 }
 
