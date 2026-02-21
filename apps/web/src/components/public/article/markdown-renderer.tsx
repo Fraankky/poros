@@ -84,7 +84,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
             <img 
               src={src} 
               alt={alt}
-              crossOrigin="anonymous"
+             
               className="max-w-full rounded-lg my-8 mx-auto block"
             />
           ),

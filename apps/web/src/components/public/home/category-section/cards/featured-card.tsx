@@ -16,7 +16,7 @@ export function FeaturedCard({ article }: { article: Article }) {
             src={article.coverImageUrl}
             alt={article.title}
             loading="lazy"
-            crossOrigin="anonymous"
+           
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
